@@ -9,14 +9,21 @@
 
 ## 📖 온라인 웹 전자책 목록 (바로 읽기)
 
-### 1. 신고전침구학대강 (新古典鍼灸學大綱)
+### 1. 중국침구경락통감 (中國鍼灸經絡通鑑 / 中国针灸经络通鉴)
+* **주편:** 황룡상(黃龍祥, 중국중의과학원 수석연구원)
+* **원출판:** 청도출판사(靑島出版社), 2003년
+* **설명:** 선진(先秦) 시기부터 청대(淸代)에 이르기까지 2천 년 중국 침구 경맥·낙맥·경근·경별 전적의 원문과 도판을 총망라하여 집대성한 경락학술사의 최고 정본 통감.
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/jingluo-tongjian.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/jingluo-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90(%E4%B8%AD%E5%9B%BD%E9%92%88%E7%81%B8%E7%BB%8F%E7%BB%9C%E9%80%9A%E9%89%B4%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90)_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C%20-%202026%EB%85%84%2010%EC%9B%94%2025%EC%9D%BC.html))*
+
+### 2. 신고전침구학대강 (新古典鍼灸學大綱)
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원)
 * **원출판:** 인민위생출판사(人民衛生出版社), 2022년 (CIP 2022.12)
 * **설명:** 고전 침구 이론의 실증적 환원과 임상 표준화를 집대성한 황룡상 교수의 대표 결정판 한국어 완역본.
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/neoclassical-acupuncture.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/neoclassical-acupuncture/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%E6%96%B0%E5%8F%A4%E5%85%B8%E9%92%88%E7%81%B8%E5%AD%A6%E5%A4%A7%E7%BA%B2_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%2016%EC%9D%BC.html))*
 
-### 2. 황제내경영추 교주어역 (黃帝內經靈樞 校注語譯)
+### 3. 황제내경영추 교주어역 (黃帝內經靈樞 校注語譯)
 * **편저:** 곽애춘(郭靄春, 1912~2001)
 * **원출판:** 천진과학기술출판사(天津科學技術出版社)
 * **설명:** 침구학 및 한의학 이론의 최고 정본인 『영추(靈樞)』 81편에 대한 정밀한 교감(校勘), 주석(注釋), 어역(語譯)의 한국어 완역본.
@@ -36,6 +43,10 @@
 
 | 분류 | 파일 / 폴더 | 설명 |
 | :--- | :--- | :--- |
+| **중국침구경락통감** | **`jingluo-tongjian.html`** | 웹 배포용 영문 단축 URL 전자책 파일 |
+| | **`jingluo-tongjian/index.html`** | 디렉터리 경로 접속용 진입점 |
+| | **`중국침구경락통감..._원문열람 - 2026년 10월 25일.html`** | 정본 통합 전자책 원본 파일 |
+| | **`중국침구경락통감(中国针灸经络通鉴경락통감).md`** | 전문 텍스트 및 서식 편집·검색용 마크다운 |
 | **신고전침구학대강** | **`neoclassical-acupuncture.html`** | 웹 배포용 영문 단축 URL 전자책 파일 |
 | | **`neoclassical-acupuncture/index.html`** | 디렉터리 경로 접속용 진입점 |
 | | **`新古典针灸学大纲_번역_통합 - 2026년 10월 16일.html`** | 정본 통합 전자책 원본 파일 |
