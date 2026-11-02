@@ -46,7 +46,7 @@
 
 ### 5. 침구수혈통고 (鍼灸腧穴通考 / 针灸腧穴通考)
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
-* **원출판:** 중국의약과학기술출판사(中國醫藥科技出版社), 1996년
+* **원출판:** 중국의약과학기술출판사(中國醫藥科技出版社), 2011년 판본
 * **설명:** 갑골문·금문·마왕퇴백서·한간·둔황권자 및 역대 수백 종 의학 전적을 망라하여 14경혈 및 경외기혈 전체의 명칭 유래, 혈위 변천, 취혈법, 주치증, 자침법의 원류를 실증주의 문헌학으로 집대성한 황룡상 교수의 대표 역작이자 경혈학 고증의 최고봉 원문 정본 (도판 496점 완비).
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/shuxue-tongkao.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/shuxue-tongkao/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%B9%A8%EA%B5%AC%EC%88%98%ED%98%88%ED%86%B5%EA%B3%A0_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C_%EC%A0%84%EA%B4%8C.html))*
@@ -59,7 +59,7 @@
 
 ### 7. 중국침구혈위통감 (中國鍼灸穴位通鑑 / 中国针灸穴位通鉴)
 * **주편:** 왕덕심(王德深) 주편
-* **원출판:** 청도출판사(靑島出版社), 1995년
+* **원출판:** 청도출판사(靑島出版社), 2004년 제2판
 * **설명:** 선진(先秦)부터 청대(淸代)까지 2천 년 침구 수혈(혈위)의 명칭 유래, 취혈 부위 변천, 고전 자침법 및 주치 전적을 도판 397점과 함께 총망라 집대성한 수혈학술사 최고 정본 통감.
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/xuewei-tongjian.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/xuewei-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%99%95%EB%8D%95%EC%8B%AC%ED%98%88%EC%9C%84%ED%86%B5%EA%B0%90_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C%20-%202026%EB%85%84%2010%EC%9B%94%2018%EC%9D%BC.html))*
