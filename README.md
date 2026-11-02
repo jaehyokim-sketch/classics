@@ -16,12 +16,12 @@
 
 ## 📖 소장 고전 및 웹 전자책 바로가기
 
-### 1. 황제내경영추 교주어역 (黃帝內經靈樞 校注語譯)
-* **편저:** 곽애춘(郭靄春, 1912~2001) 편저
-* **원출판:** 천진과학기술출판사(天津科學技術出版社)
-* **설명:** 침구학 및 한의학 이론의 최고 정본인 『영추(靈樞)』 81편에 대한 정밀한 교감(校勘), 주석(注釋), 어역(語譯)의 한국어 완역본. 마우스 호버 역주 팝업, 81편 전체 계층 목차, 원서 희귀 글자 및 도판 143종 완비.
-* **👉 [웹 전자책 바로 읽기](https://jaehyokim-sketch.github.io/classics/lingshu.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/lingshu/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%EC%98%81%EC%B6%94_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%202%EC%9D%BC.html))*
+### 1. 중국고전침구학대강 (中國古典鍼灸學大綱)
+* **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
+* **원출판:** 인민위생출판사(人民衛生出版社), 2019년
+* **설명:** 고전 침구 이론(경맥·수혈·침법·진단)의 기원과 본원적 체계를 실증적으로 분석하고 30년 침구학술사 연구를 대강(大綱) 형식으로 집대성한 역작의 한국어 완역본.
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/classical-acupuncture.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/classical-acupuncture/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E5%85%B8%E9%92%88%E7%81%B8%E5%AD%A6%E5%A4%A7%E7%BA%B2_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%201%EC%9D%BC.html))*
 
 ### 2. 신고전침구학대강 (新古典鍼灸學大綱)
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
@@ -36,6 +36,13 @@
 * **설명:** 선진(先秦) 마왕퇴 한간·백서부터 청대(淸代)에 이르기까지 2천 년 중국 침구 경맥·낙맥·경근·경별 전적의 원문과 역사적 도판 206점을 총망라하여 시대별로 집대성한 경락학술사의 최고 정본 통감.
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/jingluo-tongjian.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/jingluo-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90(%E4%B8%AD%E5%9B%BD%E9%92%88%E7%81%B8%E7%BB%8F%E7%BB%9C%E9%80%9A%E9%89%B4%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90)_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C%20-%202026%EB%85%84%2010%EC%9B%94%2025%EC%9D%BC.html))*
+
+### 4. 황제내경영추 교주어역 (黃帝內經靈樞 校注語譯)
+* **편저:** 곽애춘(郭靄春, 1912~2001) 편저
+* **원출판:** 천진과학기술출판사(天津科學技術出版社)
+* **설명:** 침구학 및 한의학 이론의 최고 정본인 『영추(靈樞)』 81편에 대한 정밀한 교감(校勘), 주석(注釋), 어역(語譯)의 한국어 완역본. 마우스 호버 역주 팝업, 81편 전체 계층 목차, 원서 희귀 글자 및 도판 143종 완비.
+* **👉 [웹 전자책 바로 읽기](https://jaehyokim-sketch.github.io/classics/lingshu.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/lingshu/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%EC%98%81%EC%B6%94_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%202%EC%9D%BC.html))*
 
 ---
 
@@ -52,11 +59,9 @@
 | 분류 | 파일 / 폴더 | 설명 |
 | :--- | :--- | :--- |
 | **포털 메인** | **`index.html`** | 고전 선택 통합 포털 홈 (라이브러리 메인) |
-| **황제내경영추** | **`lingshu.html`** | 영추 웹 배포 전자책 파일 (영문 클린 URL) |
-| | **`lingshu/index.html`** | 영추 디렉터리 경로 접속용 진입점 |
-| | **`황제내경영추_번역_통합 - 2026년 11월 2일.html`** | 정본 통합 전자책 원본 파일 |
-| | **`황제내경영추_번역 - 2026년 11월 2일.md`** | 전문 텍스트 마크다운 파일 |
-| | **`images/`** | 원서 전서/이체자 및 도판 삽화 이미지 파일 |
+| **중국고전침구학대강** | **`classical-acupuncture.html`** | 웹 배포용 영문 단축 URL 전자책 파일 |
+| | **`classical-acupuncture/index.html`** | 디렉터리 경로 접속용 진입점 |
+| | **`中国古典针灸学大纲_번역_통합 - 2026년 10월 1일.html`** | 정본 통합 전자책 원본 파일 |
 | **신고전침구학대강** | **`neoclassical-acupuncture.html`** | 웹 배포용 영문 단축 URL 전자책 파일 |
 | | **`neoclassical-acupuncture/index.html`** | 디렉터리 경로 접속용 진입점 |
 | | **`新古典针灸学大纲_번역_통합 - 2026년 10월 16일.html`** | 정본 통합 전자책 원본 파일 |
@@ -65,5 +70,10 @@
 | | **`jingluo-tongjian/index.html`** | 디렉터리 경로 접속용 진입점 |
 | | **`중국침구경락통감..._원문열람 - 2026년 10월 25일.html`** | 정본 통합 전자책 원본 파일 |
 | | **`중국침구경락통감(中国针灸经络通鉴경락통감).md`** | 전문 텍스트 및 서식 편집·검색용 마크다운 |
+| **황제내경영추** | **`lingshu.html`** | 영추 웹 배포 전자책 파일 (영문 클린 URL) |
+| | **`lingshu/index.html`** | 영추 디렉터리 경로 접속용 진입점 |
+| | **`황제내경영추_번역_통합 - 2026년 11월 2일.html`** | 정본 통합 전자책 원본 파일 |
+| | **`황제내경영추_번역 - 2026년 11월 2일.md`** | 전문 텍스트 마크다운 파일 |
+| | **`images/`** | 원서 전서/이체자 및 도판 삽화 이미지 파일 |
 | **안내** | **`README.md`** | 저장소 및 웹 도서관 종합 안내 |
 | | **`읽어 주세요.txt`** | 자료 개요 안내문 |
