@@ -16,42 +16,49 @@
 
 ## 📖 소장 고전 및 웹 전자책 바로가기
 
-### 1. 중국침구사도감 상권 (中國鍼灸史圖鑑 上卷)
+### 1. 중국침구증치통감 (中國鍼灸證治通鑑 / 中国针灸证治通鉴)
+* **주편:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 주편
+* **원출판:** 청도출판사(靑島出版社), 제2판 개정수정판
+* **설명:** 선진(先秦)부터 청대(淸代)까지 2천 년 침구 임상 처방과 경혈 주치·증치(證治) 전적을 내·외·부·아과 등 병증별로 총망라하여 집대성한 임상 침구학 최고 정본 통감 한국어 완역본.
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/zhengzhi-tongjian.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/zhengzhi-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%E4%B8%AD%E5%9B%BD%E9%92%88%E7%81%B8%E8%AF%81%E6%B2%BB%E9%80%9A%E9%89%B4_2%ED%8C%90_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%2021%EC%9D%BC.html))*
+
+### 2. 중국침구사도감 상권 (中國鍼灸史圖鑑 上卷)
 * **주편:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 주편
 * **원출판:** 청도출판사(靑島出版社), 2003년
 * **설명:** 신석기시대 폄석부터 수·당·송대 침구 유물과 침구동인에 이르기까지 도판 1,109점을 고증 해설과 함께 집대성한 한국어 완역본.
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/history-atlas-vol1.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/history-atlas-vol1/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%82%AC%EB%8F%84%EA%B0%90_%EC%83%81%EA%B7%8C%20-%202026%EB%85%84%2010%EC%9B%94%2031%EC%9D%BC.html))*
 
-### 2. 중국침구사도감 하권 (中國鍼灸史圖鑑 下卷)
+### 3. 중국침구사도감 하권 (中國鍼灸史圖鑑 下卷)
 * **주편:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 주편
 * **원출판:** 청도출판사(靑島出版社), 2003년
 * **설명:** 금원(金元) 시대부터 명·청대 침구동인 주조 및 근대 전적 도판 822점을 수록하여 침구사 발전 궤적을 복원한 한국어 완역본.
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/history-atlas-vol2.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/history-atlas-vol2/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%82%AC%EB%8F%84%EA%B0%90_%ED%95%98%EA%B7%8C%20-%202026%EB%85%84%2010%EC%9B%94%2031%EC%9D%BC.html))*
 
-### 3. 중국고전침구학대강 (中國古典鍼灸學大綱)
+### 4. 중국고전침구학대강 (中國古典鍼灸學大綱)
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
 * **원출판:** 인민위생출판사(人民衛生出版社), 2019년
 * **설명:** 고전 침구 이론(경맥·수혈·침법·진단)의 발생 원리와 본원적 체계를 실증적으로 분석하고 30년 침구학술사 연구를 대강(大綱) 형식으로 집대성한 역작의 한국어 완역본.
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/classical-acupuncture.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/classical-acupuncture/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E5%85%B8%E9%92%88%E7%81%B8%E5%AD%A6%E5%A4%A7%E7%BA%B2_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%201%EC%9D%BC.html))*
 
-### 4. 신고전침구학대강 (新古典鍼灸學大綱)
+### 5. 신고전침구학대강 (新古典鍼灸學大綱)
 * **저자:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 저
 * **원출판:** 인민위생출판사(人民衛生出版社), 2022년 (CIP 2022.12)
 * **설명:** 고전 침구 이론의 실증적 환원과 임상 표준화를 집대성한 황룡상 교수의 대표 결정판 한국어 완역본. 기병치막(器病治膜), 장침모자법(长针募刺法) 등 고전 임상 침구학의 정수를 현대 의학적 실증주의로 고증.
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/neoclassical-acupuncture.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/neoclassical-acupuncture/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%E6%96%B0%E5%8F%A4%E5%85%B8%E9%92%88%E7%81%B8%E5%AD%A6%E5%A4%A7%E7%BA%B2_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%2016%EC%9D%BC.html))*
 
-### 5. 중국침구경락통감 (中國鍼灸經絡通鑑 / 中国针灸经络通鉴)
+### 6. 중국침구경락통감 (中國鍼灸經絡通鑑 / 中国针灸经络通鉴)
 * **주편:** 황룡상(黃龍祥) 주편
 * **원출판:** 청도출판사(靑島出版社), 2003년
 * **설명:** 선진(先秦) 마왕퇴 한간·백서부터 청대(淸代)에 이르기까지 2천 년 중국 침구 경맥·낙맥·경근·경별 전적의 원문과 역사적 도판 206점을 총망라하여 시대별로 집대성한 경락학술사의 최고 정본 통감.
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/jingluo-tongjian.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/jingluo-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90(%E4%B8%AD%E5%9B%BD%E9%92%88%E7%81%B8%E7%BB%8F%E7%BB%9C%E9%80%9A%E9%89%B4%EA%B2%BD%EB%9D%BD%ED%86%B5%EA%B0%90)_%EC%9B%90%EB%AC%B8%EC%97%B4%EB%9E%8C%20-%202026%EB%85%84%2010%EC%9B%94%2025%EC%9D%BC.html))*
 
-### 6. 황제내경영추 교주어역 (黃帝內經靈樞 校注語譯)
+### 7. 황제내경영추 교주어역 (黃帝內經靈樞 校注語譯)
 * **편저:** 곽애춘(郭靄春, 1912~2001) 편저
 * **원출판:** 천진과학기술출판사(天津科學技術出版社)
 * **설명:** 침구학 및 한의학 이론의 최고 정본인 『영추(靈樞)』 81편에 대한 정밀한 교감(校勘), 주석(注釋), 어역(語譯)의 한국어 완역본. 마우스 호버 역주 팝업, 81편 전체 계층 목차, 원서 희귀 글자 및 도판 143종 완비.
@@ -63,7 +70,7 @@
 ## ✨ 웹 전자책 공통 주요 기능
 - **전체 목차 탐색 사이드바:** 장·절별 계층 목차 지원 (펼치기/접기 지원)
 - **가독성 최적화:** 본문 글자 크기 확대/축소(A− / A+), 다크 모드(🌙) / 라이트 모드 전환
-- **인터랙티브 툴바:** 본문 직접 편집 및 메모(📝), 역주 호버 팝업, 도판 확대(고해상도 줌) 및 자체 저장 기능
+- **인터랙티브 툴바:** 본문 직접 편집 및 메모(📝), 역주 호버 팝업, 자체 저장 기능
 - **독립 실행형 단일 HTML:** 외부 라이브러리 의존 없이 오프라인에서도 단일 파일로 완전 구동
 
 ---
@@ -73,6 +80,10 @@
 | 분류 | 파일 / 폴더 | 설명 |
 | :--- | :--- | :--- |
 | **포털 메인** | **`index.html`** | 고전 선택 통합 포털 홈 (라이브러리 메인) |
+| **중국침구증치통감** | **`zhengzhi-tongjian.html`** | 웹 배포용 영문 단축 URL 전자책 파일 |
+| | **`zhengzhi-tongjian/index.html`** | 디렉터리 경로 접속용 진입점 |
+| | **`中国针灸证治通鉴_2판_번역_통합...html`** | 정본 통합 전자책 원본 파일 |
+| | **`중국침구증치통감_번역_통합.md`** | 전문 텍스트 및 서식 편집·검색용 마크다운 |
 | **중국침구사도감** | **`history-atlas-vol1.html`** / **`history-atlas-vol2.html`** | 상권·하권 웹 배포용 영문 단축 URL 전자책 파일 |
 | | **`history-atlas-vol1/`** / **`history-atlas-vol2/`** | 상권·하권 디렉터리 경로 접속용 진입점 |
 | | **`중국침구사도감_상권...html`** / **`중국침구사도감_하권...html`** | 정본 통합 전자책 원본 파일 |
