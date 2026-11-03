@@ -2,7 +2,10 @@
 <html lang="ko"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>황제내경영추 교주어역</title>
-<style>/* ══════════════════════════════════════════════════════════════════════
+<style>@font-face { font-family:"RareHan"; src:url(data:font/woff2;base64,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) format("woff2"); unicode-range:U+344A,U+34A9,U+356E,U+359E,U+38AE,U+3966,U+3C26,U+3C69,U+3C7F,U+3CC4,U+3F77,U+3FC9,U+402E,U+4062,U+43DA,U+4403,U+4408,U+441C,U+4592,U+46E9,U+47F4,U+4935,U+4ABC,U+4BCF,U+4BD2; font-display:swap; }
+@font-face { font-family:"RareHan"; src:url(data:font/woff2;base64,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) format("woff2"); unicode-range:U+200A2,U+22650,U+22B43,U+24E1E,U+24E2A,U+24EF2,U+251C0,U+25206,U+25242,U+25A03,U+26AA2,U+29A17,U+29A72,U+2A523,U+2B3CB,U+2C90A,U+2CB38; font-display:swap; }
+@font-face { font-family:"RareHan"; src:url(data:font/woff2;base64,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) format("woff2"); unicode-range:U+2C88E,U+2CC43,U+2CC53,U+2CCC0; font-display:swap; }
+/* ══════════════════════════════════════════════════════════════════════
    KoPub 글꼴을 본문 사슬에 쓸 때는 **반드시 아래 X 집안**을 쓴다
    ─────────────────────────────────────────────────────────────────────
    ★함정 — 윈도는 KoPub 을 굵기마다 **다른 집안 이름**으로 등록한다
@@ -911,8 +914,8 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>5. 【번역】에서 황제의 말은 하오체로, 기백 등 신하의 대답은 합니다체로 옮겼다.</p>
 <p>6. 본문 사이의 p.N 은 바탕으로 삼은 판의 스캔 파일 물리 쪽 번호다. 본문의 원서 인쇄 쪽 번호는 여기서 20을 뺀 값이다(예: p.21 = 인쇄 1쪽).</p>
 <p>7. 옮긴이의 주는 [역1]~[역468] 으로 번호를 매겨 그 덩이 끝에 두었다. 번호에 마우스를 올리면 문안이 뜬다. 원서의 오식으로 보이는 곳은 본문을 원서대로 두고 역주로 밝혔다. 먼저 찍힌 판에만 있는 오식은 「수정판에서 바로잡았다」고 적었다.</p>
-<p>8. 〓 는 원서의 전서(篆書)·초서 글자나 알아볼 수 없는 글자처럼 컴퓨터 글자로 옮기지 못한 자리다.</p>
-<p>9. 부록 색인은 원서 그대로 두었다. 색인의 쪽 번호는 원서 인쇄 쪽이다.</p>
+<p>8. 원서의 전서(篆書)·초서·고문 글자나 컴퓨터 글자에 없는 글자는 원서에서 오려 낸 그림으로 넣었다.</p>
+<p>9. 부록 색인은 원서 그대로 두었다. 스캔으로 알아보기 어려운 색인 글자는 그 항목과 본문의 같은 구절로 확인해 적었다. 색인의 쪽 번호는 원서 인쇄 쪽이다.</p>
 <h2 id="fg-guide">이 전자책 쓰는 법</h2>
 <div class="fg-guide">
 <p class="fg-lead">위쪽 도구 막대의 단추와, 본문 글자를 골라 쓰는 메모·형광펜 기능이 있습니다. 메모와 고친 글은 이 브라우저에 저장됩니다(맨 아래 「저장되는 곳」 참고).</p>
@@ -1041,7 +1044,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>「경맥편(經脈篇)」: “견갑을 꿰뚫는다.(贯胛)” 살펴보건대[按] “胛” 자는 “胂” 자가 되어야 한다. “胂”과 “胛”은 모양이 비슷하여 잘못된 것이다. 여기서는 척추 양옆 셋째 줄, 각각 3치 떨어진 여러 혈을 말하는데, 아래로 척추 근육을 꿰뚫어 부분(附分)을 거쳐 질변(秩邊)에 이르니 당연히 胂으로 하는 것이 옳다. “胂”은 척추 양옆의 근육이다. 『태소(太素)』와 『천금(千金)』에 따라 고쳐야 한다.</p>
 <p>「경맥편」: “신 족소음의 맥은……연곡 아래로 나온다.(肾足少阴之脉……出于然谷之下)” 살펴보건대 “谷” 자는 오자이니 “骨” 자가 되어야 하며, 소리 때문에 잘못된 것이다. “然谷”은 혈 이름이고 “然骨”은 뼈 이름이다.（『태소』 양주(楊注)에 따르면 “연골(然骨)은 안쪽 복사뼈 아래 조금 앞쪽에 솟은 뼈이다.(然骨在內踝下，近前起骨)”） 둘은 섞일 수 없다. “然骨”은 “연곡이 자리한 곳(然谷所居)”이라고는 하지만, 각 경맥의 유주는 모두 인체 부위를 가리키니 신경(腎經)만 혈 이름을 내놓을 수는 없다. 『소문(素問)』 「비론(痹論)」 신교정(新校正)에서 “연골은 연곡으로 된 데도 있다.(然骨一作然谷)”라고 하였으니 그 잘못이 이어진 지 오래되었는데, 임씨의 교정[林校]은 끝내 옳고 그름을 가리지 않았으니 애매하다는 비판을 면하기 어렵다.</p>
 <p>「경맥편」: “삼초 수소양의 맥은……돌아 삼초에 속한다.(三焦手少阳之脉……循属三焦)” 살펴보건대 “循” 자는 오자이다. 『맥경(脈經)』 권6 제11과 『천금』 권20 제4를 찾아보면 모두 “偏” 자로 되어 있으니 옳다. 전중(膻中)에서 만나는 것은 상초에 속하는 것이고, 횡격막을 내려간 뒤 중완(中脘)에서 중초에 속하며, 음교(陰交)에서 하초에 속한다. 이 맥은 상·중·하 삼초를 두루 잇기 때문에 “두루 삼초에 속한다(偏屬三焦)”라고 한 것이다. “循”으로 하면 무슨 뜻이겠는가?</p>
-<p>「경맥편」: “以屈下颊至<img width="61" height="60" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA8CAAAAADwVe2QAAABhElEQVR4nOVX0Y7EIAgU4v//8lzuKlZAhI33cjmzSWvrMDAgdgntYnD7q+huH1BruOImukG3Mr5XaRbTbQYXoFGToec8tOJHSIQcLdFvVCCc0YlwhI3mE5OpjteDeDFG2M97EYDGXZqxrVkU61yBXe66vAg5TgJ0a5delGBFm/keLfOc5PdzP67jhuYiW5Mi7jljSLjPgzZoFVOFu2uTw2MxgUVFRdos91N6Mpsg44ue2lpbbSt7Kio47pYr4BoWt5vBH1D7ZxyZLWWOg/W1tLNCAGsDpG+VtmZIZWxkd61u2R/H0b3BCuwXM4ba4qgzQeZmUyQhcNHHEppyvlqlZk88+t3elxmjEx7j6k+i2Vjfdht2WFZ8ht4wzQaPHfoFq4NVWqOEA8R1jk+OMt4stuTDrNq+Fu1qdDOeLksObRME25NV7ZNGj+mOWoHNAo7A4xx5aFzEtGi+VXsRO1SDTaSKIHDp8OURV1rEjRjsIsZqUn3ROHTUzGE934zAMBZD//T/2Bctt22jQy/5KAAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림">” 살펴보건대 『맥경』·『갑을(甲乙)』 권2 제1 상·『천금』에는 모두 “颊” 자가 “额” 자로 되어 있다. “颊” 자는 오자이다. 『침구대성(鍼灸大成)』 권7에서 “양백(陽白)은 눈썹 위 1치, 눈동자 바로 위에 있으며, 수족양명·소양과 양유맥이 만나는 곳이다.(陽白、眉上一寸直瞳子，手足陽明、少陽，陽維之合)”라고 하였다. 이것은 이 맥이 바로 귀 위 모서리에서 앞으로 나아가 이마에 이르러 수족양명·족소양·양유맥과 양백혈에서 만난다는 것이다.</p>
+<p>「경맥편」: “以屈下颊至颊” 살펴보건대 『맥경』·『갑을(甲乙)』 권2 제1 상·『천금』에는 모두 “颊” 자가 “额” 자로 되어 있다. “颊” 자는 오자이다. 『침구대성(鍼灸大成)』 권7에서 “양백(陽白)은 눈썹 위 1치, 눈동자 바로 위에 있으며, 수족양명·소양과 양유맥이 만나는 곳이다.(陽白、眉上一寸直瞳子，手足陽明、少陽，陽維之合)”라고 하였다. 이것은 이 맥이 바로 귀 위 모서리에서 앞으로 나아가 이마에 이르러 수족양명·족소양·양유맥과 양백혈에서 만난다는 것이다.</p>
 <p class="pgm"><span class="page-marker">p.10</span></p>
 <p>『십사경발휘(十四經發揮)』의 「수소양삼초유지도(手少陽三焦維之圖)」에 그린 유주 경로도 이와 같으니, 그러므로 “额”으로 하는 것이 옳다.</p>
 <p>「경맥편」: “수소음의 기가 끊어지면……그러므로 얼굴이 옻칠한 땔나무처럼 검다.(手少阴气绝……故其面黑如漆柴)” 살펴보건대 이 편의 족소음 신맥 시동병(是動病)에 “얼굴이 옻칠한 땔나무 같다(面如漆柴)”라는 글이 있다. 그런데 여기서 또 “手少阴气绝” 조목에 붙어 있으니 잘못이 있는 듯하다. 수태음·족태음 등 조목의 구례로 견주어 보면 “故其面黑如漆柴” 구절은 “髦色不泽者”로 보아야 할 듯하다. 곧 “则髦色不泽者，血先死”라고 하면 맞는다.</p>
@@ -1289,7 +1292,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="jg">〔十六〕 <strong class="jg-t">무침(無鍼)</strong>: 복각 『태소』 권21에는 “无针”이 “针无”로 되어 있다.</p>
 <p class="jg">〔十七〕 <strong class="jg-t">심시혈맥(審視血脈)</strong>: 살펴보건대 “脉” 아래에 원래 “者” 자가 있었는데, 여기서는 마주본(馬注本)·장주본 및 복각 『태소』 권21과 『갑을』 권5 제4에 따라 빼서 바로잡았다.</p>
 <p class="jg">〔十八〕 <strong class="jg-t">위(衞)</strong>: 복각 『태소』 권21에는 “衞” 자가 “衡” 자로 되어 있다.</p>
-<p class="jg">〔十九〕 <strong class="jg-t">혈맥자(血脈者)</strong>: 『갑을』 권5 제4에는 “血” 위에 “取” 자가 있다. 복각 『태소』 권21에는 “脉者”가 “所” 자로 되어 있어 아래의 “在” 자와 이어 한 구가 된다. 양상선은 “혈맥은 <img width="52" height="52" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAAAAADgE0Q3AAABDklEQVR4nNWW4Q7CMAiEuWXv/8pndFOBHbRbjFH+1LT94EopE7TzttgfQ7gAoaA6CFWsNSjhNrKRFiBzG8FvZg/bwLE8Yz7KphTRQYRYRqzlsWY7eYcAVMFOZI8XIBaREKVwL5DM6IqwdzHJ+6rlsVYqIfjcCQ+Hy4XaxonLHVlxJoYs5OtdGsTeezFVRu4xPwZMVgQ25rUZr6SuQ8bcI9vjBQiSuY/xTJU8eCablIdqggKikhiXO3kUykYpp7Umz8T8oygj9L41dLfpz+9nezmb0EtuJDOme4T1mXEph4TFl2SH0InBZ7K3Pn1R+vSNOctLby2UkfAW5TEuDu7J/PreGNKMmxj9ZWgj/Sh0A+ASRIQfBcpqAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">맥이다.(血脈、<img width="52" height="52" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAAAAADgE0Q3AAABDklEQVR4nNWW4Q7CMAiEuWXv/8pndFOBHbRbjFH+1LT94EopE7TzttgfQ7gAoaA6CFWsNSjhNrKRFiBzG8FvZg/bwLE8Yz7KphTRQYRYRqzlsWY7eYcAVMFOZI8XIBaREKVwL5DM6IqwdzHJ+6rlsVYqIfjcCQ+Hy4XaxonLHVlxJoYs5OtdGsTeezFVRu4xPwZMVgQ25rUZr6SuQ8bcI9vjBQiSuY/xTJU8eCablIdqggKikhiXO3kUykYpp7Umz8T8oygj9L41dLfpz+9nezmb0EtuJDOme4T1mXEph4TFl2SH0InBZ7K3Pn1R+vSNOctLby2UkfAW5TEuDu7J/PreGNKMmxj9ZWgj/Sh0A+ASRIQfBcpqAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">脈也)”라고 하였다.</p>
+<p class="jg">〔十九〕 <strong class="jg-t">혈맥자(血脈者)</strong>: 『갑을』 권5 제4에는 “血” 위에 “取” 자가 있다. 복각 『태소』 권21에는 “脉者”가 “所” 자로 되어 있어 아래의 “在” 자와 이어 한 구가 된다. 양상선은 “혈맥은 胳맥이다.(血脈、胳脈也)”라고 하였다.</p>
 <p class="jg">〔二十〕 <strong class="jg-t">징(澄)</strong>: 복각 『태소』 권21과 『갑을』 권5 제4에는 모두 “满”으로 되어 있다.</p>
 <p class="lbl unit-lbl"><strong>【주석】</strong></p>
 <p class="lbl zs"><strong>① 울진즉제지(宛陳則除之)</strong>: 왕빙은 “울(菀)은 쌓인다는 뜻이고, 진(陳)은 오래되었다는 뜻이며, 제(除)는 없앤다는 뜻이다. 낙맥 속에 혈이 쌓여 오래된 것을 침으로 찔러 없앤다는 말이다.(菀、積也。陳、久也。除、去也。言絡脈之中，血積而久者，鍼刺而除去之也)”라고 하였다.</p>
@@ -2693,7 +2696,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="jg">〔四〕 <strong class="jg-t">관(關)</strong>: “闔” 자가 되어야 한다. 그 설명은 위 “太阳”의 교감 〔六〕과 같다. 양상선은 “문에는 두 가지가 있으니 안문과 바깥문이다. 삼음은 안문이고 삼양은 바깥문이다. 안문의 빗장이라 한 것은 태음을 이른다.(門有二種，有內門、外門，三陰爲內門，三陽爲外門。內門關者，謂是太陰。)”라고 하였다.</p>
 <p class="jg">〔五〕 <strong class="jg-t">격동자(膈洞者)</strong>: 『소문』 「음양이합론」 신교정에서 인용한 『구허』에는 “膈” 자가 “隔” 자로 되어 있다. 『태소』 권10 「경맥근결」에는 “鬲” 자로 되어 있다. 살펴보건대[按] 양주의 “횡격막의 기가 허약함(膈气虚弱)”에 근거하면 『태소』도 원래 “膈”으로 썼음을 알 수 있다. “隔”은 “膈”의 가차자(借字)이다.</p>
 <p class="jg">〔六〕 <strong class="jg-t">고개절자(故開（關）折者)</strong>: 『갑을』 권2 제5에는 “者” 아래에 “则” 자가 있는데, 아래에 붙여 읽는다.</p>
-<p class="jg">〔七〕 <strong class="jg-t">즉기절이희비(即氣絶而喜悲)</strong>: 장주본(張注本)에는 “即” 자가 “则” 자로 되어 있다. 『소문』 「음양이합론」 신교정에서 인용한 『구허』에는 “绝” 자가 “<img width="51" height="49" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAxCAAAAABSAs79AAAA/ElEQVR4nN1W0RLDIAgznP//y9l1VquCUNc97JaHXisEgkJbMG1D0u9ykFYF4bgw5uBye1NskqjQp7MD6Ri4ycx0HWgVkV0VzQ09S9IGqnjOSzR2rYlnrA3mqmz4VoOkfWQvTSkH802Ow3K+ESdN6YzaHkobdNQrQH8eVx5oQa0EbZYFxZA8azvA2lLzRK05dMKPm58dD8OyOB+kCDL56tPoobRhMNbBMGLIKh6N0/I49PQ9noWmvZ/uAug8HATxXh6qdXyrHvochtoc8Hx9wuMweH7+bQw7Gp/kwVQPLPlmaqlG3N9s2dI2cqjCjzPTA8PnL2i8+hvwZ/9IL48+Pn0+jjMjAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">” 자로 되어 있고, “喜” 자가 “善” 자로 되어 있다. 『태소』 권10 「경맥근결」에는 “绝” 자가 “弛” 자로 되어 있다. 살펴보건대[按] “<img width="52" height="50" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAyCAAAAAA2SqcqAAABJklEQVR4nNVW27aFIAhkWv3/L89ZZSaIIL3tw0OazsjdAuW7HPKvSAjmGQkKec2xJ+HCdJyeT3JGhiCyrWtCAlidc5MY4tQOhodoy7gR7alOpVPC4ZMEup4jdUg5SEMsvRDyGMwCCRZMWtaZcdjfaXWlBYtg/QiwzA47F2cSg9NyV9AknHxYk9CwO7O8Jk5x1QI7aYWCSYfK0yrNaZ7kSxlx49wgQY284vfyvSWvT/I6MDqKY4TvJ6l1Pb1PzIBajrHB3ghbtSq5EuvDksRNNdzXqNPElBOa90HsXS5edHCWpFAml/ckmqFIWkiBRBdaTUKDmJW3PVu6nuXpw0D7aircVzki6xYb3TzEPsUkzhuldufTHjnraRv9VZXi35UmleXH/8L+AF/AVGHvkyOwAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">”와 “弛”는 같은 글자로, 뜻이 “施”와 통한다. 『주례(周禮)』 「수인(遂人)」 정주(鄭注)에 “施는 弛로 읽는다.(施讀爲弛。)”라고 하였다. “气弛”는 곧 기가 늘어짐이다.</p>
+<p class="jg">〔七〕 <strong class="jg-t">즉기절이희비(即氣絶而喜悲)</strong>: 장주본(張注本)에는 “即” 자가 “则” 자로 되어 있다. 『소문』 「음양이합론」 신교정에서 인용한 『구허』에는 “绝” 자가 “㢮” 자로 되어 있고, “喜” 자가 “善” 자로 되어 있다. 『태소』 권10 「경맥근결」에는 “绝” 자가 “弛” 자로 되어 있다. 살펴보건대[按] “㢮”와 “弛”는 같은 글자로, 뜻이 “施”와 통한다. 『주례(周禮)』 「수인(遂人)」 정주(鄭注)에 “施는 弛로 읽는다.(施讀爲弛。)”라고 하였다. “气弛”는 곧 기가 늘어짐이다.</p>
 <p class="jg">〔八〕 <strong class="jg-t">비자(悲者)</strong>: “悲” 위에 “善” 자가 빠졌으니, 『갑을』 권2 제5에 따라 보충해야 한다.</p>
 <p class="jg">〔九〕 <strong class="jg-t">개취지부족(皆取之不足)</strong>: 살펴보건대[按] “不足” 두 자는 위 글에 끌려 잘못 더해진 연문(衍文)이니, 『태소』 권10 「경맥근결」, 『갑을』 권2 제5에 따라 빼야 한다.</p>
 <p class="lbl unit-lbl"><strong>【주석】</strong></p>
@@ -2814,7 +2817,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>황제가 말했다. “형기(形氣)에 남음이나 모자람이 나타나면 어떻게 치료하오?” 기백이 말했다. “형기가 모자라고 병기(病氣)가 남는 경우는 사기가 실한 것이니, 급히 그 사기를 사해야 합니다. 형기가 남고 병기가 모자란 경우는 음양이 모두 모자란 것이니, 이런 환자에게는 침으로 치료해서는 안 됩니다. 잘못 찌르면 정기가 더욱 모자라게 되어 음양이 모두 다하고 혈기가 모두 바닥나며 오장이 비고 근수(筋髓)가 마르게 됩니다. 이렇게 되면 노인은 죽게 되고 장년도 회복하기 매우 어렵습니다. 형기가 남고 병기도 남는 경우는 음양이 모두 남는 것이니, 이런 환자에게는 그 실한 사기를 사하고 허실을 조화하여 한쪽으로 치우쳐 성하지 않게 해야 합니다. 그러므로 병이 남는 것은 사법을 쓰고 병이 모자란 것은 보법을 써야 한다고 하니, 바로 이 이치입니다.”<sup><a href="#yk-43" id="yk-ref-43" class="fn-ref yk">[역43]<span class="fn-tooltip">원서 어역은 「形气有余，病气不足」과 「形气不足，病气不足」 사이가 빠져 「形气有余，病气不足的，这是阴阳都不足了」로 이어지는데, 경문으로 보아 「形气不足，病气不足的」라야 한다.</span></a></sup></p>
 <p class="pgm"><span class="page-marker">p.83</span></p>
 <blockquote>
-<p>故曰刺不知逆①顺，真邪相搏〔一〕。满〔二〕而补之，则阴阳〔三〕四溢②，肠胃充郭〔四〕③，肝肺内䐜〔五〕，阴阳相错。虚而泻之，则经脉空虚，血气竭枯，肠胃<img width="64" height="69" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABFCAAAAADfz7+xAAABsUlEQVR4nO1Y245DIQh0CP//y7M5rfGoXI60+7LJ8tBtZYBRAcmC7TuR9ucdaNkCrc3nhuUQcX3kx7pDxCj7Z2bfgPQM4Lu4VmEwmvJdwm7U+ubV4jx0LJrGzISZA6SGmG8By52mwd5anmQiXx88qjPMbJaAAaUjBhWR+sWtonbJ2zrDAGoIOPb8jXLGNw6Q6KSEzhjgAcgJMOekHgTh6gGFROJzt5HUwQwO9qi5OtLd1NTBDy0O9qWHISP7JtaEFfvmHaJbTVF70Sxa6C5wwFGQSWVeMndV7SsTGnx+Hu+bkmEfgPfMwxs9ljF6zdXvd+K9arJ8UJ9i+tu/Rraq4HbAQ3uGW2Bu1fdwo6IJZZGeerzx7uAhzpqFs/QyMUaXGDSnTp2KErMSE5iO46Aa6SeQmSTFh7gC7x6QThMj3KbL84Be7FjFHRVsfhkSXt+enjYmvN9jL9M8oCWL3kyWqVwjwy2RvUGex10ZCUe1ChOm9jbiweFm35ItmF469d8DBxweXn/CEpOA3vzEpy1T3djDdls5YnDLUWuSD+ZElloazU8+V2NFZF+oPnH4/wdE+wEQk3e28swN2gAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"><!-- GLYPH: page 0083, 亻 radical + 聶/聂-like right part, uncertain -->〔六〕辟④，皮肤薄著⑤，毛腠夭膲〔七〕，予之死期。故曰用针之要，在于知调阴与阳〔八〕，调阴与阳，精气乃光〔九〕，合形与气，使神内藏。故曰上工平气⑥，中工乱脉〔十〕⑦，下工⑧绝气危生。故曰下工〔十一〕不可不慎也。必审五脏变化之病〔十二〕，五脉⑨之〔十三〕应，经络〔十四〕之实虚，皮〔十五〕之柔粗，而后取之也。</p>
+<p>故曰刺不知逆①顺，真邪相搏〔一〕。满〔二〕而补之，则阴阳〔三〕四溢②，肠胃充郭〔四〕③，肝肺内䐜〔五〕，阴阳相错。虚而泻之，则经脉空虚，血气竭枯，肠胃㒩<!-- GLYPH: page 0083, 亻 radical + 聶/聂-like right part, uncertain -->〔六〕辟④，皮肤薄著⑤，毛腠夭膲〔七〕，予之死期。故曰用针之要，在于知调阴与阳〔八〕，调阴与阳，精气乃光〔九〕，合形与气，使神内藏。故曰上工平气⑥，中工乱脉〔十〕⑦，下工⑧绝气危生。故曰下工〔十一〕不可不慎也。必审五脏变化之病〔十二〕，五脉⑨之〔十三〕应，经络〔十四〕之实虚，皮〔十五〕之柔粗，而后取之也。</p>
 </blockquote>
 <p class="lbl unit-lbl"><strong>【교감】</strong></p>
 <p class="jg">〔一〕 <strong class="jg-t">박(搏)</strong>: 『태소』 권22 「자법」, 『갑을』 권5 제6에는 모두 “薄” 자로 되어 있다. 살펴보건대[按] “搏”과 “薄”은 통용한다. 『좌전』 소공(昭公) 17년 두주(杜注)의 『석문(釋文)』에 “搏은 본래 薄으로 썼다.(搏本作薄。)”라고 하였다. 『침구대성(鍼灸大成)』에서 “搏”을 “薄”으로 인용한 것은 옳지 않다.</p>
@@ -2822,7 +2825,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="jg">〔三〕 <strong class="jg-t">음양사일(陰陽四溢)</strong>: 『갑을』 권5 제6에는 “阴阳” 아래에 “血气” 두 자가 있고, “四” 자가 “皆” 자로 되어 있다.</p>
 <p class="jg">〔四〕 <strong class="jg-t">곽(郭)</strong>: 『내외상변혹론(內外傷辨惑論)』 권하에는 “廓” 자로 되어 있다. “郭”과 “廓”은 옛날에 읽는 음이 같았다.</p>
 <p class="jg">〔五〕 <strong class="jg-t">진(䐜)</strong>: 『태소』 권22 「자법」에는 “瞋” 자로 되어 있고, 『갑을』 권5 제6에는 “胀” 자로 되어 있다. “䐜”과 “瞋”은 통용한다. 『옥편(玉篇)』 「육부(肉部)」에서 인용한 『비창(埤蒼)』에 “䐜은 당겨 일어나는 것이다.(䐜，引起也。)”라고 하였고, 『광아(廣雅)』 「석고(釋詁)」에 “瞋은 벌어지는 것이다.(瞋，張也。)”라고 하였다. 뜻이 가까우므로 통용할 수 있다.</p>
-<p class="jg">〔六〕 <strong class="jg-t"><img width="54" height="53" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA1CAAAAAAvukevAAABEElEQVR4nNVWAQrEIAwzw/9/Occ53KrG2gl3sDLYtMbGpurAtGNHeh0M2IEhDITJZEVwHHV9cQ7zjXspgYQxpH/upkmVvmD8deB0G5jBSKPxb8qdF35qvofPkapzHQ2/KmWshkKRlCg2rvOtdEMt1QUDkRK4VBnSzZjVIY8hiLXgKhrN2icmSTIFdYsePaEqwUIA7UZ5LsZ2xUXf0sGtI4ghTLWY3OzXkbtgbJWfEe+PV9oE3Y2zAhjfprxm/Mf9hhKSO9E46PNgv32tVo1fk6nNxV2j4uoY5cHTQwFNy9UN/kwTGNIGDBFQA6O9ZGjGkIPc4jZl11bmZpIRki6EbZfdb/U3II2N3hpY3F7xG/oBt0ZHfjZS7QYAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"></strong>: 『태소』 권22 「자법」에는 “摄” 자로 되어 있다. 『갑을』에는 “懾” 자로 되어 있다. “摄”은 “懾”·“聶”과 모두 통용한다. 『소문(素問)』 「조경론(調經論)」의 “피부가 주름져 오그라들고 기가 부족하다.(聶辟气不足)”를 『태소』 권22 「허실소생편(虛實所生篇)」에서는 “聶”을 “懾”으로 썼고, 『갑을』 권6 제3에서는 “摄”으로 썼으니, 이것이 그 증거이다.</p>
+<p class="jg">〔六〕 <strong class="jg-t">㒩</strong>: 『태소』 권22 「자법」에는 “摄” 자로 되어 있다. 『갑을』에는 “懾” 자로 되어 있다. “摄”은 “懾”·“聶”과 모두 통용한다. 『소문(素問)』 「조경론(調經論)」의 “피부가 주름져 오그라들고 기가 부족하다.(聶辟气不足)”를 『태소』 권22 「허실소생편(虛實所生篇)」에서는 “聶”을 “懾”으로 썼고, 『갑을』 권6 제3에서는 “摄”으로 썼으니, 이것이 그 증거이다.</p>
 <p class="jg">〔七〕 <strong class="jg-t">초(膲)</strong>: 『태소』 권22 「자법」, 『갑을』 권5 제6에는 모두 “焦” 자로 되어 있다. 옳다. “膲”는 삼초(三膲)의 膲이다. “夭膲”는 털과 주리가 짧고 마른 것을 말하니, 글자는 “焦”가 되어야 한다. 혜림(慧琳)의 『음의(音義)』 권30에서 인용한 『고성(考聲)』에 “焦는 몹시 마른 것이다.(焦，極乾也。)”라고 하였다.</p>
 <p class="jg">〔八〕 <strong class="jg-t">재어지조음여양(在於知調陰與陽)</strong>: 『태소』 권22 「자법」에는 “于” 자가 “乎” 자로 되어 있고, “阴与阳” 세 자가 없다.</p>
 <p class="jg">〔九〕 <strong class="jg-t">광(光)</strong>: 『갑을』 권5 제6에는 “充” 자로 되어 있다. 살펴보건대[按] “光”은 “阳”·“藏”과 운(韻)이 맞는다. 『설문(說文)』 「목부(木部)」에 “桄은 채운다는 뜻이다.(桄，充也。)”라고 하였다. “桄”은 “光”의 가차자[叚字]이다. 『갑을』에서 “充”으로 쓴 것은 “光”과 뜻이 통한다.</p>
@@ -2836,7 +2839,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="lbl zs"><strong>① 역(逆)</strong>: 보해야 할 때 도리어 사하고, 사해야 할 때 도리어 보함을 이른다.</p>
 <p class="lbl zs"><strong>② 사일(四溢)</strong>: 모두 성함을 이른다. “四”는 “皆”의 잘못된 글자이다. 혜림의 『음의』 권1에서 인용한 『국어(國語)』 가주(賈注)에 “溢은 남음이다.(溢，餘也。)”라고 하였고, 권65에서 인용한 『자림(字林)』에 “溢은 가득함이다.(溢，滿也。)”라고 하였다. “余”와 “满”은 뜻이 넓어져 “성하다”는 뜻이 된다.</p>
 <p class="lbl zs"><strong>③<!-- GLYPH: page 0083, printed like ⑧ but stands in position ③ --> 충곽(充郭)</strong>: 부풀어 그득함을 이른다. “郭”과 “廓”은 옛날에 통용했다. 혜림의 『음의』 권54에서 인용한 『고금정자(古今正字)』에 “작은 것을 펴서 크게 하는 것을 廓이라 한다.(張小使大謂之廓。)”라고 하였다.</p>
-<p class="lbl zs"><strong>④ <img width="50" height="59" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA7CAAAAAAcW4alAAABLElEQVR4nO1Wy5LDIAyTGP7/l9UJCcGwNoTNnnbqQwqxZfkFKYVdSdsIfCEvK8ZtCME5iADyRkSHPaGOpTCENFWRYxWge9NWALWZPP5oxrSAZCcutU3JQW0D0El/IKEtAY7noi98lz4jyPouSM960UHwmKCqs+m/Q2jqfUtuy6bpbbgzlnhb5EuU72F+Ujp1gdlTQnNEVDyW1aV3B0b2V5u5MHinTqmZElfY8lIJRWlELEtHk4seftBSHIB5dpIHk9IJz0HrTKpBGXfdNPwkS8tjeFaZvxxLnpCIJK5fnkXkXeiIA2tXng1qzkJradEpNA4lzdWes7wgGeaa5yTvhYV1YKMHORDNEFLMUps/Hf5bqrEluDZa5GLGXpYtx5CIlLPjcnyMnbf/6E/vB1p6UI5+iqacAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">벽(<img width="50" height="59" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA7CAAAAAAcW4alAAABLElEQVR4nO1Wy5LDIAyTGP7/l9UJCcGwNoTNnnbqQwqxZfkFKYVdSdsIfCEvK8ZtCME5iADyRkSHPaGOpTCENFWRYxWge9NWALWZPP5oxrSAZCcutU3JQW0D0El/IKEtAY7noi98lz4jyPouSM960UHwmKCqs+m/Q2jqfUtuy6bpbbgzlnhb5EuU72F+Ujp1gdlTQnNEVDyW1aV3B0b2V5u5MHinTqmZElfY8lIJRWlELEtHk4seftBSHIB5dpIHk9IJz0HrTKpBGXfdNPwkS8tjeFaZvxxLnpCIJK5fnkXkXeiIA2tXng1qzkJradEpNA4lzdWes7wgGeaa5yTvhYV1YKMHORDNEFLMUps/Hf5bqrEluDZa5GLGXpYtx5CIlLPjcnyMnbf/6E/vB1p6UI5+iqacAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">辟)</strong>: 양상선은 “섭벽(攝辟)은 장위에 기가 없는 것이다.(攝辟，腸胃無氣也。)”라고 하였다.</p>
+<p class="lbl zs"><strong>④ 㒩벽(㒩辟)</strong>: 양상선은 “섭벽(攝辟)은 장위에 기가 없는 것이다.(攝辟，腸胃無氣也。)”라고 하였다.</p>
 <p class="lbl zs"><strong>⑤ 피부박착(皮膚薄著)</strong>: 피부가 뼈 위에 바짝 붙음을 이른다. 『국어』 「진어(晉語)」 위주(韋注)에 “著은 붙음이다.(著，附也。)”라고 하였다. “附” 자는 뜻이 넓어져 바짝 붙는다는 뜻이 있다.</p>
 <p class="pgm"><span class="page-marker">p.84</span></p>
 <p class="lbl zs"><strong>⑥ 상공평기(上工平氣)</strong>: 『주례(周禮)』 「의사(醫師)」에 “열이면 열을 모두 낫게 하는 것이 상등이다.(十全爲上。)”라고 하였다. 양상선은 “상공은 음양허실을 알므로 고르지 않은 기를 고르게 할 수 있다.(上工知陰陽虛實，故能平不平之氣。)”라고 하였다.</p>
@@ -3669,7 +3672,7 @@ body.dark main img.glyph { filter:invert(.88); }
 </blockquote>
 <p class="pgm"><span class="page-marker">p.115</span></p>
 <p class="lbl unit-lbl"><strong>【교감】</strong></p>
-<p class="jg">〔一〕 <strong class="jg-t">피(鈹)</strong>: 『태소』 권22 「삼자」와 『성제총록(聖濟總錄)』 권193 「치치구치(治齒灸治)」에는 모두 “<img width="50" height="52" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA0CAAAAADtDTRwAAAAyUlEQVR4nM1U0Q7EIAijZP//y73c7macoIjJFnlwE6wtooCSNZVNIYd14Tswz4IMBP8P5iGMiLQvQB6F8BWWhVLeBcJI1dusLCr/sMcN9qrA2kmHBZatV0yVtOnUKnonxurKVxlgdMgcbBwecmSael2bdRi+wvIchA+zIA9Zfft0fFcXUC+wIowjvMYkbCKalSUNBDNdWWMEBhDMcEhVl2szHwEDQXE4iEbZ0fiYvDBso7+GOEifNkxnqoEmLzWe41wWNSRl2zalDzrTJnagVztxAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">” 자로 되어 있다.</p>
+<p class="jg">〔一〕 <strong class="jg-t">피(鈹)</strong>: 『태소』 권22 「삼자」와 『성제총록(聖濟總錄)』 권193 「치치구치(治齒灸治)」에는 모두 “九” 자로 되어 있다.</p>
 <p class="lbl unit-lbl"><strong>【주석】</strong></p>
 <p class="lbl zs"><strong>① 중설(重舌)</strong>: 양상선은 “중설은 혀 밑에 살이 겹으로 자라난 것을 이른다.(重舌，謂舌下重肉生也。)”라고 하였다.</p>
 <p class="lbl zs"><strong>② 설주(舌柱)</strong>: 곧 혀 밑의 큰 힘줄로, 그 모양이 기둥 같으므로 설주라고 한다.</p>
@@ -3856,7 +3859,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="jg">〔四〕 <strong class="jg-t">외별(外別)</strong>: 『태소』 권14 「인영맥구진편」에는 “别其”로 되어 있다.</p>
 <p class="jg">〔五〕 <strong class="jg-t">원진(願盡)</strong>: 『태소』 권8에는 “愿” 아래에 “尽” 자가 없다.</p>
 <p class="jg">〔六〕 <strong class="jg-t">강(剛)</strong>: 고(顧)의 『교기(校記)』에 “이것은 ‘刚’을 빌려 ‘纲’으로 쓴 것이다.(此假‘刚’为‘纲’。)”라고 하였다. 살펴보건대[按] 고씨의 교감이 옳다. “纲”은 “幹”·“营”·“墙”과 뜻이 짝을 이룬다. 『설문(說文)』 「계부(系部)」에 “강(綱)은 그물을 매는 큰 줄이다.(綱，維紘繩也。)”라고 하였다.</p>
-<p class="jg">〔七〕 <strong class="jg-t">장(牆)</strong>: 통본(統本)·금릉본(金陵本)·장본(藏本)·일초본에는 모두 “<img width="55" height="55" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAAAAACNsI2aAAABZ0lEQVR4nN1WyxLDIAh0M/n/X95Oa0SexvTUKZdEcQUWUMH2lRztX3DADQ4VCljggGLnt0TFaUZoy7Sgid7HV5psXTf0x/hhCkSAIJi+Zri0OSwoPy98zY4WHd+TUoVZLaZoAn0v6UNZfBojYwHN3tytM1peNf9iLzpeCyNO5aMURj/FlREdLER0DjeV4VcJZm4xsj219DhTQdzvdySDgbOk4DNFN0x4MUB8yKHdzG08/ZTtEJfpMWJd32QQ6jP41Io7YcrnXjdpeyMwhG30DPO6VnmmbBuLQ9mbPGLlIb+8H+Bwm2ReIvG586P16qaOAAFXtE2zTFBV0vHURbaEF+VWIsFPn2slOi/dz1X/iai02xVZ/7HN20cfSJHPRHh9iwAe1wscTjkEbbZo5nPhDXu9dLaZ4uIli2tKbmp3MNn414nP+ujhu/DcXknjx8TRhcAEivt3AWuzCU17761W4e7l9967ubwA7XFliSzOR0EAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">”로 되어 있으나, 잘못이다.</p>
+<p class="jg">〔七〕 <strong class="jg-t">장(牆)</strong>: 통본(統本)·금릉본(金陵本)·장본(藏本)·일초본에는 모두 “濇”로 되어 있으나, 잘못이다.</p>
 <p class="jg">〔八〕 <strong class="jg-t">졸문(卒聞)</strong>: 『도경(圖經)』 권1의 인용에는 “卒” 자가 없다.</p>
 <p class="jg">〔九〕 <strong class="jg-t">소이능(所以能)</strong>: 『태소』 권8, 『갑을』 권2 제1 상, 『소문』 「조경론(調經論)」 왕주(王注)의 인용, 『도경』 권1의 인용에는 모두 “能” 자가 없다.</p>
 <p class="lbl unit-lbl"><strong>【주석】</strong></p>
@@ -3984,7 +3987,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="jg">〔十六〕 <strong class="jg-t">기지자(其支者)</strong>: 『소문』 「궐론」 왕주에는 “支” 아래에 “别” 자가 있다.</p>
 <p class="jg">〔十七〕 <strong class="jg-t">쇄쇄(洒洒)</strong>: 『맥경』 권6 제6, 『천금』 권16 제1, 『도경』 권2에는 모두 “悽悽然”으로 되어 있다. 『갑을』 권2 제1 상에는 “悽悽”가 “凄凄”로 되어 있다. 살펴보건대 “悽”와 “凄”는 서로 통한다. 『시(詩)』 「사월(四月)」 석문(釋文)에 “凄는 悽로도 쓴다.(凄亦作悽)”라고 하였다.</p>
 <p class="jg">〔十八〕 <strong class="jg-t">신(呻)</strong>: 『태소』 권8에는 “伸”으로 되어 있다. 막문천은 “선신삭흠(善伸數欠)은 하나의 증상이다. 『예기(禮記)』에 ‘군자는 하품하고 기지개를 켠다.’라고 하였다. 만약 ‘呻’이라면 신병(腎病)이니 위(胃)에 속해서는 안 된다.(善伸數欠爲一證。《禮記》云：‘君子欠伸。’若‘呻’爲腎病，不應屬胃)”라고 하였다.</p>
-<p class="jg">〔十九〕 <strong class="jg-t">병지즉오(病至則惡)</strong>: 막문천은 “『소문』 「맥해」와 「양명맥해(陽明脈解)」에는 ‘则’ 아래에 모두 ‘厥’ 자가 있으니, 뜻이 나으므로 보충해야 한다.(《素·脈解》及《陽明脈解》‘則’下皆有‘厥’字，義長當補)”라고 하였다. 『맥경』 권6 제6과 『천금』 권16 제1에는 모두 “<img width="52" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA2CAAAAACt2+U8AAABH0lEQVR4nNVWyxLDIAh0M/3/X97OJI08RIVMDy0nJ7KyC4IBW92O9i8goAwCWkMRhEowrwkVEFvBXveCmMejfLuW9J5ckqTTxI5GIRHMQVz2uHWnTgQGyCfstXTbL9nDNo6hhw0lRCCGnvOjLnpMM1Og2FThJScaBC3gdsbknMNtA+vegoDQskaVCKzcemkRig1ld68Ozk0j9nMmKceybmfMTg/uaMvPMvZ1Ck1Kx8Vgoflwlk6WRhP96X1DoQwIofhAGE3nwvCbaVzWiXHWbSJyxl0/MRqzAYhm+N6jdpTn6THDctDEJ6BMIr/zuuMBCCNynJom5XhKz9jkSf10LlrSggvLbZXUsBRI6kYMncuIrXuiRBMzMQyoZj/+Z/kGRAdOjBngxnsAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">”로 되어 있다. “䛩”는 “恶”의 옛 글자이다.</p>
+<p class="jg">〔十九〕 <strong class="jg-t">병지즉오(病至則惡)</strong>: 막문천은 “『소문』 「맥해」와 「양명맥해(陽明脈解)」에는 ‘则’ 아래에 모두 ‘厥’ 자가 있으니, 뜻이 나으므로 보충해야 한다.(《素·脈解》及《陽明脈解》‘則’下皆有‘厥’字，義長當補)”라고 하였다. 『맥경』 권6 제6과 『천금』 권16 제1에는 모두 “證”로 되어 있다. “䛩”는 “恶”의 옛 글자이다.</p>
 <p class="jg">〔二十〕 <strong class="jg-t">성(聲)</strong>: 『태소』 권8, 『맥경』 권6 제6, 『천금』 권16 제1, 『도경』 권2에는 모두 “音”으로 되어 있다.</p>
 <p class="jg">〔二十一〕 <strong class="jg-t">욕동(欲動)</strong>: 『맥경』 권6 제6, 『천금』 권16 제1, 『도경』 권2에는 “欲动” 두 자가 모두 서로 뒤바뀌어 있어 “欲” 자가 아래에 붙여 읽힌다.</p>
 <p class="jg">〔二十二〕 <strong class="jg-t">폐호색유(閉戶塞牖)</strong>: 『소문』 「맥해편」에는 “塞” 자가 없다.</p>
@@ -4145,7 +4148,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="lbl zs"><strong>⑤ 교견상(交肩上)</strong>: 장개빈은 “어깨 위는 병풍(秉風)·곡원(曲垣) 등의 혈이다. 좌우가 두 어깨 위에서 엇갈려 독맥의 대추(大椎)에서 만난다.(肩上，秉風、曲垣等穴也。左右交於兩肩之上，會於督脈之大椎。)”라고 하였다.</p>
 <p class="lbl zs"><strong>⑥ 종결분순경상협(從缺盆循頸上頰)</strong>: 활수(滑壽)는 “따로 결분에서 목의 천창(天窗)·천용(天容)을 따라 뺨으로 올라가 관료(顴髎)에 이른다.(別從缺盆，循頸之天窗、天容，上頰抵顴髎。)”라고 하였다.</p>
 <p class="lbl zs"><strong>⑦ 목예자(目銳眥)</strong>: 곧 눈꼬리이다.</p>
-<p class="lbl zs"><strong>⑧ 졸(䪼)</strong>: （zhuō拙） 눈확 아래 가장자리의 뼈를 가리킨다. 『급취편(急就篇)』 권3 안주(顔注)에 “졸(䪼)은 두 <img width="50" height="52" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA0CAAAAADtDTRwAAABN0lEQVR4nN1W267DIAyLEf//y55KgSYBAp10Hs6QNrVZ7DiXZgXl7UnyPyAQvITgBJNG0w6TtzoKBV9BUL84F8ZAJnB9sI5SPGkTq9fZ3N5RQESFSObH0JVVNrjycaroolBCXn0lTRi9vbJUk6HMxunOmwIXt7Sl9SYpOx7oqBTfDT+9MM+pIt2pulxKFnfFHxFhK+O5t5nlbvbuk/LG6ZeadX9Dh9F8TQpntaiNmUcJ92Ea1Bj+UkcnI49ajaAqUY91Gkj7Vbupz133yit+FdjJTTPj7NBHoQt+XjFZn8Xw4wQrGtL2y0wftjPG3tXnUd1AZBDnl5LZqXaYzV7ibJIPOpRPEPqvQrqwqIt9lKEgaoVNTk2iDV7SNKtEnhrAFfnw3SS9RkhffXvXa23R9OXn3pTkbyAfnE5ddrZs1WcAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">의 광대뼈이다.(䪼，兩<img width="50" height="52" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA0CAAAAADtDTRwAAABN0lEQVR4nN1W267DIAyLEf//y55KgSYBAp10Hs6QNrVZ7DiXZgXl7UnyPyAQvITgBJNG0w6TtzoKBV9BUL84F8ZAJnB9sI5SPGkTq9fZ3N5RQESFSObH0JVVNrjycaroolBCXn0lTRi9vbJUk6HMxunOmwIXt7Sl9SYpOx7oqBTfDT+9MM+pIt2pulxKFnfFHxFhK+O5t5nlbvbuk/LG6ZeadX9Dh9F8TQpntaiNmUcJ92Ea1Bj+UkcnI49ajaAqUY91Gkj7Vbupz133yit+FdjJTTPj7NBHoQt+XjFZn8Xw4wQrGtL2y0wftjPG3tXnUd1AZBDnl5LZqXaYzV7ibJIPOpRPEPqvQrqwqIt9lKEgaoVNTk2iDV7SNKtEnhrAFfnw3SS9RkhffXvXa23R9OXn3pTkbyAfnE5ddrZs1WcAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">之顴也。)”라고 하였다.</p>
+<p class="lbl zs"><strong>⑧ 졸(䪼)</strong>: （zhuō拙） 눈확 아래 가장자리의 뼈를 가리킨다. 『급취편(急就篇)』 권3 안주(顔注)에 “졸(䪼)은 두 颊의 광대뼈이다.(䪼，兩颊之顴也。)”라고 하였다.</p>
 <p class="lbl zs"><strong>⑨ 목내자(目內眥)</strong>: 곧 눈구석이다.</p>
 <p class="lbl zs"><strong>⑩ 함(頷)</strong>: （hàn汗） 목의 앞 위쪽, 턱끝 아래쪽, 결후(結喉) 위쪽의 무른 살 부위에 있다. 『도경』 권2 주에 “함(頷)은 <img width="44" height="56" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAA4CAAAAACjqEVQAAAA+klEQVR4nN2V4Q6DIAyEe8T3f+VbpuIoXKEs2Z9VE0S/lGsLFbS8lQ3W/hYG8jDOOwfjeTpS1AKGetnAMKMA+Zl6zRhYtntnESDdrARZssulV1QWLuFcNQvBsV2YCc3eWpiLNCc8U8NQz5QVhHdYM7gnQ3jWEXUVPEKUo5tDsfTFmmpmuz7mm59hBAKGJivMKWLPWUnkmeflYM75zjPXazQyuANjA0aERH1jQZe8CNOpYxCrlIEgM4FmbMBws7u3IhUg6pj7AZmXkcnc9J/ijcm+wXv8qovyHnzxutpMTwqvwj+fxpPCOl6L1PP3Ntl5otdBgFsbSdvv4BfJaTt6qnwpzAAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> 뺨 아래이다.(頷、<img width="44" height="56" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAA4CAAAAACjqEVQAAAA+klEQVR4nN2V4Q6DIAyEe8T3f+VbpuIoXKEs2Z9VE0S/lGsLFbS8lQ3W/hYG8jDOOwfjeTpS1AKGetnAMKMA+Zl6zRhYtntnESDdrARZssulV1QWLuFcNQvBsV2YCc3eWpiLNCc8U8NQz5QVhHdYM7gnQ3jWEXUVPEKUo5tDsfTFmmpmuz7mm59hBAKGJivMKWLPWUnkmeflYM75zjPXazQyuANjA0aERH1jQZe8CNOpYxCrlIEgM4FmbMBws7u3IhUg6pj7AZmXkcnc9J/ijcm+wXv8qovyHnzxutpMTwqvwj+fxpPCOl6L1PP3Ntl5otdBgFsbSdvv4BfJaTt6qnwpzAAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림">頰下也。)”라고 하였다.</p>
 <p class="pgm"><span class="page-marker">p.133</span></p>
@@ -7439,7 +7442,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>足髀〔一〕①不可举，侧而取之，在枢合〔二〕中②以员利针，大针不可刺〔三〕。</p>
 </blockquote>
 <p class="lbl unit-lbl"><strong>【교감】</strong></p>
-<p class="jg">〔一〕 <strong class="jg-t">족비(足髀)</strong>: 『태소』 권30 「비질(髀疾)」에는 “髀” 위에 “足” 자가 없다. 살펴보건대[按] “足” 자가 없는 것이 옳다. 『소문(素問)』 「무자론(繆刺論)」에서 “사기가 족소양의 낙맥에 머무르면 비추(髀樞) 속에 머물러 아프고 넓적다리를 들 수 없게 된다.(邪客<img width="20" height="47" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAvCAAAAADGX7W/AAAAYklEQVR4nLWQAQrAIAwDk9H/fzkDcUqtUwedSKFH2oZQiO9CJiQjZPmw3qIZqUq2EsZZy+I6ZxB5UBOot3EbAZMs8URpESk/EPwYsnZKrXfKL3iUjn736cI/Gi8Hk1Lam78B/64NZOKdeLsAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">足少陽之絡，令人留於樞中痛，髀不可舉。)”라고 하였으니, 『태소』와 일치한다.</p>
+<p class="jg">〔一〕 <strong class="jg-t">족비(足髀)</strong>: 『태소』 권30 「비질(髀疾)」에는 “髀” 위에 “足” 자가 없다. 살펴보건대[按] “足” 자가 없는 것이 옳다. 『소문(素問)』 「무자론(繆刺論)」에서 “사기가 족소양의 낙맥에 머무르면 비추(髀樞) 속에 머물러 아프고 넓적다리를 들 수 없게 된다.(邪客于足少陽之絡，令人留於樞中痛，髀不可舉。)”라고 하였으니, 『태소』와 일치한다.</p>
 <p class="pgm"><span class="page-marker">p.250</span></p>
 <p class="jg">〔二〕 <strong class="jg-t">합(合)</strong>: 『갑을』 권10 제1 하에는 “阖” 자로 되어 있다.</p>
 <p class="jg">〔三〕 <strong class="jg-t">자(刺)</strong>: 『태소』 권30 「비질」과 『갑을』 권10 제1 하에는 모두 “刺” 자가 없다.</p>
@@ -8599,7 +8602,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="jg">〔四〕 <strong class="jg-t">역(亦)</strong>: 『태소』 권5 「사해합」과 『갑을』 권1 제8에는 모두 “则” 자로 되어 있다.</p>
 <p class="jg">〔五〕 <strong class="jg-t">복만(腹滿)</strong>: 『갑을』 권1 제8에는 “腹” 아래에 “胀” 자가 있다. 살펴보건대[按] 『태소』에는 “满” 아래에 “胀” 자가 있는데, 『갑을』에서 “胀满”으로 쓴 것만큼 타당하지 못한 듯하다.</p>
 <p class="jg">〔六〕 <strong class="jg-t">경산현모(脛痠眩冒)</strong>: 『영락대전(永樂大典)』 권11077 「수류(髓類)」에서 인용한 글에는 “痠” 자가 “<img width="56" height="55" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA3CAAAAAB8u9YXAAABaElEQVR4nNVWSRLDIAxDDP//sjo0IXhPmlt96LQxQvKagu2d9fY3wJF6MD/4lhF4CWwH8U9S6TCQ0rvwIhc2bTr3AYhLdjqKC5jFOFlL4jQ560rWzQjhPojkeawnKi9xVmMe/lCOVofan+GACqgrAS0TTxmxYCs8PIsRguz8BZWkcRtdUx6mdTyKllvacneGSmrM0ZSSftMmFC3LejpUf/N6PFtA3jjK8ae9chconw5IThEeE6l2A0BLvnxhOeDnj3awer6VaKToGILkyAbifsbGU+U3LyPZpnBBPZqOBWfQt1lWT4EMaYT4bFnh/GWRV8ZGNYXUSJXmHnZUdJq6PBvom4OtsC3VrzfIdWBv0clhunBoGS+pJn00rdoyoB6/CWOJW1LDNMIfd8DoXoRfg87xeyKytTJGdEwRIMSn83gYc+iXWb1OotpBQhgxJhWnz45cj/Kt2Jw04zHA6j8jlMsCH9sf/bX+ANX8b4vWxqaUAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">” 자로 되어 있다. 『태소』 권5 「사해합」에는 “冒” 자가 “𥈆” 자로 되어 있다. 살펴보건대[按] “<img width="51" height="55" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA3CAAAAACEWy3gAAABYklEQVR4nNVW7Q7DIAgU4vu/8i22foCcOv8sGUvWajk45KMVpGvR9IcYucfI87vCSIXdYLAjqAv/u7TJeGiMoi9BlKVveh6YQTIWecOBmJriwftfL88tgO4Hy3jwbJlNoyL9NBEwjhWu6k2WC+XbASKbM2hSdWj2cqLCEtqX+i3EuNKoX8mXTPEazcSFxNDBz0ACeOyMcuDcQk5LBS1qR6qKHNtIww5K9LZgRWyMnBvIKbtCUOa8mXVpKt52GHFX16orjMxsPVf1DwcJr+ZW+l15OlcyzZ1aJHbsBLdCZ9WYb4xdDtwowkk+IFxBUwxeqr0DKLWkflI5yOQ8Yob0Lh3+cIhHHq03Ej4X1NybUb3tIbXWm87hO0OJvdOniQY3QaYubZj5leDNjC6trQj+1qCDrWplGoSZ8KR4MoH40kGclpittD6yTeaoJToPSoasrf4enr8P0tr1JHwmXmOO8ivMB3Y1fGVz39GqAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">”는 “痠”의 획이 빠진 글자이고, “𥈆”는 “冒”를 소리 부분으로 하므로 “冒”와 통한다.</p>
-<p class="jg">〔七〕 <strong class="jg-t">해태안와(懈怠安臥)</strong>: 살펴보건대[按] “怠” 자는 잘못인 듯하니, “<img width="52" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA2CAAAAACt2+U8AAABA0lEQVR4nM1WWw7DIAzDqPe/sifBWh5JTJm2qfmgPGKchIQCpn3J6dGgQy0ipeT5DMZKKC21eShNVe1m8ZFP2AExQlkQ3W4EglXkByGfsDh7xzrA/XI9IYcJaqagpkDQw/wi99h5dfp4MreeiB4RbdfMQ2nw0MpFqMHvMsGuiJgEIYed4MwEgYGd2/AJGoQF6gIxqiRzp71BWNtW98TIxNC6luXXYPdw0YEYEnmSZRAGaUo5WKSzz1WIXhpxyBmHy809pn9WLgSnZuImk5Ks7/vkyuH/uDFg7zJJcc8JGqPu8hSiPfNgM5C3fKIYGRAnrUo4mzLeG6zfRcYOD6q78vCX5Qvi5D98vX2iRgAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림">” 자로 써야 한다. “怠”로 쓴 것은 주문(注文)으로 정문(正文)을 고친 것이다.</p>
+<p class="jg">〔七〕 <strong class="jg-t">해태안와(懈怠安臥)</strong>: 살펴보건대[按] “怠” 자는 잘못인 듯하니, “㑊” 자로 써야 한다. “怠”로 쓴 것은 주문(注文)으로 정문(正文)을 고친 것이다.</p>
 <p class="lbl unit-lbl"><strong>【주석】</strong></p>
 <p class="lbl zs"><strong>① 기해유여(氣海有餘)</strong>: 양상선은 “유여(有餘)는 사기가 진기에 더해진 것을 이른다.(有餘，謂邪氣益眞氣也。)”라고 하였다.</p>
 <p class="lbl zs"><strong>② 문식(悗息)</strong>: 『태소』에는 “急息”으로 되어 있다. 호흡이 급하고 촉박함을 이른다.</p>
@@ -10016,7 +10019,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="lbl unit-lbl"><strong>【번역】</strong></p>
 <p>황제가 소유(少兪)에게 물었다. “내가 듣기로 여러 질병이 처음 생길 때는 반드시 풍·우·한·서의 외감에서 생기는데, 사기가 솜털을 따라 주리(腠理)로 들어가서는 전변하기도 하고, 머물러 그치기도 하며, 풍종(風腫)이 되어 땀이 나기도 하고, 소단이 되기도 하며, 한열이 오가기도 하고, 오래된 비증이 되기도 하며, 적취를 이루기도 하오. 바르지 않은 사기가 몸 안에 흩어져 퍼지니, 병증이 천변만화하여 이루 다 헤아릴 수 없소. 그 까닭을 듣고 싶소. 또 같은 때에 병을 얻었는데 어떤 사람은 이 병을 앓고 어떤 사람은 저 병을 앓으니, 의심스럽소! 자연계에서 일어나는 바람인데 어째서 생기는 병변이 이토록 다르오?” 소유가 답했다. “자연계에서 일어나는 바람은 어느 한 사람에게 치우치지 않습니다. 바람은 두루 불어 공평하고 바르니, 그것을 범하는 사람은 병을 얻고, 그것을 막아 피하는 사람은 위험이 없을 수 있습니다. 분명히 말하자면 풍사가 사람을 찾아가는 것이 아니라 사람들이 스스로 그것을 범하기 때문에 병이 생기는 것입니다.”</p>
 <blockquote>
-<p>黄帝曰：一时遇风，同时得病，其病各异，愿闻其故。少俞曰：善乎哉问！请论以比匠人。匠人磨斧斤①，砺刀削②，斲③材木。木之阴阳④，尚有坚脆，坚者不入，脆者皮<img width="77" height="73" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAABJCAAAAABd8/R6AAABxElEQVR4nO2Y227EIAxEGcT///JUSgghNmA7S9VKrR92s1wOA3YwLJg2Wt4JS/+037BuZVWJlBJlgSiKaYN+xittZy80MXPKinZOsOsL7wtTJEY/2jjwA59SwtrYeQfM8gL7Zmsn4Pg425R+SagCrIOtDW38WXMRq0JqEop5/WCI1oyijOe6ueIJjpI8KX9nZVF3OEWXpmrQ9e540z6gXm/bC7W2/4FZjxLKgA2MsQS9blXtvSaHxwcepYd2I+OWQ62xhwZfsxyD4V300tgR0r1PceWZQZa7FfXupW49mekEpoZFfcSENunKxxtxGi5Iq3B4QSzfyhHSC8/BRV41nVoMUd7Y4JpmS6LepwQNlhKZC9IiQlwvEL/5NEgz1z/y5OLA49DGFq6+TD+mVcSA4IPmV73cM/0IV9JbHH/2vuA1XFLn2szLQdJR+H6muA/PzUzawilQ7YLaDIfnGG04AjfQOCgL0vrMygf1qCnjc7sDlwbXi/zhGYue02AIBa0tapAZCb228E6E6e2DXcxMzB4NlebS5cFh1LCbAkP+ycMbKd9PlpPyMWC933E+jKEGAVrIsDXLsH7t0XYd9ffR0p/63/ILyFt0uxWa9NIAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"><!-- GLYPH: page 0344, 弓+施 — 원본 잘라 그림 -->⑤，至其交节⑥，而缺斤斧⑦焉。夫一〔一〕木之中，坚脆不同，坚者则刚，脆者易伤，况其材木之不同，皮之厚薄，汁之多少，而各异耶。夫木之早花先生叶者，遇春霜烈风，则花落而叶萎；久曝大旱，则脆木薄皮者，枝条汁少而叶萎；久阴淫雨，则薄皮多汁者，皮溃而漉⑧；卒风暴起，则刚脆之木，枝折杌⑨伤；秋霜疾风，则刚脆之木，根摇而叶落〔二〕。凡此五者，各有所伤，况于人乎。</p>
+<p>黄帝曰：一时遇风，同时得病，其病各异，愿闻其故。少俞曰：善乎哉问！请论以比匠人。匠人磨斧斤①，砺刀削②，斲③材木。木之阴阳④，尚有坚脆，坚者不入，脆者皮㢮<!-- GLYPH: page 0344, 弓+施 — 원본 잘라 그림 -->⑤，至其交节⑥，而缺斤斧⑦焉。夫一〔一〕木之中，坚脆不同，坚者则刚，脆者易伤，况其材木之不同，皮之厚薄，汁之多少，而各异耶。夫木之早花先生叶者，遇春霜烈风，则花落而叶萎；久曝大旱，则脆木薄皮者，枝条汁少而叶萎；久阴淫雨，则薄皮多汁者，皮溃而漉⑧；卒风暴起，则刚脆之木，枝折杌⑨伤；秋霜疾风，则刚脆之木，根摇而叶落〔二〕。凡此五者，各有所伤，况于人乎。</p>
 </blockquote>
 <p class="pgm"><span class="page-marker">p.345</span></p>
 <p class="lbl unit-lbl"><strong>【교감】</strong></p>
@@ -10027,7 +10030,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="lbl zs"><strong>② 여도삭(礪刀削)</strong>: 『광아』 「석고 3」에 “여(礪)는 간다는 것이다.(礪，磨也。)”라고 하였다. “刀削”은 뜻이 같다. 『서(書)』 「고명(顧命)」의 공소(孔疏)에 “도(刀)는 일명 삭(削)이다.(刀一名削。)”라고 하였다.</p>
 <p class="lbl zs"><strong>③ 착(斲)</strong>: （zhuó灼） 『설문』 「근부」에 “착(斲)은 찍는다는 것이다.(斲、斫也。)”라고 하였다.</p>
 <p class="lbl zs"><strong>④ 목지음양(木之陰陽)</strong>: 『주례(周禮)』 「고공기(考工記)」에 “바퀴통 재목을 벨 때는 반드시 그 음양을 새겨 표시해 둔다. 양이란 결이 촘촘하여 단단하고, 음이란 결이 성글어 부드럽다.(凡斬轂之道，必矩其陰陽。陽也者，稹理而堅；陰也者，疏理而柔。)”라고 하였다. 살펴보건대[按] 구(矩)는 새겨 표시한다는 뜻이다. 나무의 해를 향한 쪽이 양이고, 해를 등진 쪽이 음이다.</p>
-<p class="lbl zs"><strong>⑤ <img width="44" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAA2CAAAAACZoiQgAAAA/ElEQVR4nN1W7Q6DIAzsEd7/lW9RZNIvkS0my+6HjnIttT3rQLmPIn9OrpERIsKVyLiODB0Px2+c1hKEgj0BlgzLG5M+zNUnh3QxKR3U3ZSOdl+hhAX12F1rfxJsl9yRKmeOO7RezNstbXdoR1YNigDxEyalQySNdSHhkoVISDnXCymB0pciM+F2lLRv8KZ3U5glEpEvwG/nBrD1zaTDsCloDuwSEiEeHV/4OHL1b2oO00HOIycUtrN4I2f6w6LBqMCFanBcmCk64Jw6uwzmkamXMZkt9MnVU9RWqduUmnYyntBGcamG4En2JIYuw9dOpi94J9/Cj/yFWCK/ANOZNJLVAp8hAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"></strong><!-- GLYPH: page 0345, 弓+施 — 원본 잘라 그림 -->: “<img width="50" height="51" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAzCAAAAADwCATIAAABGUlEQVR4nM1W2xKFIAh0Gf7/lzlzLBtEFu0tHirZ5aaowdpbkfZRE6UI+jMpVVBajBePgtRtjGLBc3CbeMCl80RzCkviSx9Prml1N5BMslE2NpNMI8rjezi3nQe5WH+DOHdM1Hk2QrS5E3TF3XenhgRa1ZakKnlt0bwJjqpvesDpuNWJIeYH31TCC4iRx1h3QXyFFk1OjyctMLLbZMscDWtzFFD+xQZNDO1EpLKYWjQzwYrb4YzZkz3S8LK4jp6XSOKgBcwXV1u1k/8K5FEsy5mJFNiUF2/+QvDOxAeUPbsfSvfejEs5Tq1pfL/czOjCiLLcU1rzg7W5Ws5WZHvCMBGiT03NHzTLddqR/E7H0D0fKbpV1vLZn6sfazNIgWY/MqUAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"><!-- GLYPH: page 0345, 弓+施 — 원본 잘라 그림 -->”는 “弛”와 같다. 『좌전(左傳)』 소공(昭公) 32년의 두주(杜注)에 “이(弛)는 풀린다는 것과 같다.(弛猶解也。)”라고 하였다.</p>
+<p class="lbl zs"><strong>⑤ 㢮</strong><!-- GLYPH: page 0345, 弓+施 — 원본 잘라 그림 -->: “㢮<!-- GLYPH: page 0345, 弓+施 — 원본 잘라 그림 -->”는 “弛”와 같다. 『좌전(左傳)』 소공(昭公) 32년의 두주(杜注)에 “이(弛)는 풀린다는 것과 같다.(弛猶解也。)”라고 하였다.</p>
 <p class="lbl zs"><strong>⑥ 교절(交節)</strong>: 나무의 옹이 진 곳. 『순자(荀子)』 「왕제(王制)」의 양주(楊注)에 “교(交)는 서로 맞닿아 이어진다는 것이다.(交、交接連結也。)”라고 하였다.</p>
 <p class="lbl zs"><strong>⑦ 결근부(缺斤斧)</strong>: 살펴보건대[按] 나무에 옹이가 있으면 도끼가 잘 들어가지 않으므로 “缺斤斧”라고 하였다. “缺”은 폐(廢)와 같다. 『후한서(後漢書)』 「낭의전(郞顗傳)」의 현주(賢注)에 보인다.</p>
 <p class="lbl zs"><strong>⑧ 피궤이록(皮潰而漉)</strong>: “漉”（lù鹿） 『광아』 「석언」에 “녹(漉)은 스민다는 것이다.(漉、滲也。)”라고 하였다. “皮溃而漉”은 나무가 오랜 비를 맞아 껍질이 짓물러 터지고 진액이 스며 흘러내리는 것을 이른다. 장개빈이 “녹(漉)은 물에 젖은 모양이다.(漉、水濕貌。)”라고 풀이한 것은 무엇에 근거했는지 알 수 없다.</p>
@@ -14370,14 +14373,14 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>황제(黃帝)가 기백(岐伯)에게 물었다. “나는 자법에 오절(五節)이 있다고 들었는데, 어떤 것이오?” 기백이 답했다. “확실히 오절이 있습니다. 첫째는 진애, 둘째는 발몽, 셋째는 거조, 넷째는 철의, 다섯째는 해혹이라고 합니다.” 황제가 말했다. “그대가 말한 오절의 뜻을 나는 모르겠소.” 기백이 답했다. “진애의 자법은 사지와 피부의 경혈을 찔러 양병(陽病)을 치료하는 것입니다. 발몽의 침법은 육부의 수혈(兪穴)을 찔러 육부의 병을 치료하는 것입니다. 거조의 침법은 관절의 지락(支絡)을 찌르는 것입니다. 철의의 자법은 육부의 별락(別絡)을 찌르는 것입니다. 해혹의 침법은 음양을 조화시키는 작용을 완전히 알아, 부족한 것은 보하고 남는 것은 사하여 서로 반복하여 변화시키는 것입니다.”<sup><a href="#yk-416" id="yk-ref-416" class="fn-ref yk">[역416]<span class="fn-tooltip">원서 경문 「黄帝向于岐伯曰」의 「向」은 「问」의 오식으로 보인다(같은 책 경문 첫머리 「黄帝问于岐伯曰」 꼴).</span></a></sup></p>
 <p class="pgm"><span class="page-marker">p.505</span></p>
 <blockquote>
-<p>黄帝曰刺节言振埃，夫子乃言刺外经〔一〕，去阳病，余不知其所谓也，愿卒闻之。岐伯曰：振埃者，阳气大逆，上〔二〕满于胸中，愤〔三〕瞋〔四〕①肩息，大气逆上，喘喝坐伏②、病恶埃烟，<img width="63" height="67" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAABDCAAAAAAO1IK5AAABdklEQVR4nOVX7Y7EIAgUwvu/8ly6Xi0oKLa5vWyWH/0ABqaKVAnlkXD5bLzoFypldzhIAeh17SIcSqT4k7mZGJTBn2KcaRGByzNhP+2gxPvmH2Wh04MhKXhDtjsiPKZApaiOPf98/dWQEprgzonSEjReuVJX2TNO4rIyASI4lvMfl32YXwkyK5svh07QjRgl8uMKhZg+2vyUdf1ftN1wPLFZuC8c47yYQx8Raz7z6cFT1loVNOBJR8C1uhQueBOf+7rxTvCR1Eqw/NmaR0B3A6wjHxdVD7NwD+o/FD4fbu4DeA/7qp9x/kum6/ZtSeFddLAm6O/2D778ksv0DyPINAIu+4Jcfnq2fsj55jEeLzP0MZ/gq3j1F3XpRjmoJvbVTrhtPP5v/0zj1wbfL7EjvZk/3cHLrb/uAo98ft6DD4tKjGlCJjhdyAIeckFq/309Hz8+RyQJ7ze0bVni1FBu7Ds3XrgH9FoWjgxxAMzOj9ikQ19+fv8Bh/pesdExHBsAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">〔五〕不得息，请言振埃，尚疾于振埃③。黄帝曰：善。取之何如？岐伯曰：取之天容④。黄帝曰：其咳上气，穷诎⑤胸痛者，取之奈何？岐伯曰：取之廉泉⑥。黄帝曰：取之有数乎？岐伯曰：取天容者，无过一里〔六〕⑦，取廉泉者，血变而〔七〕止。帝曰：善哉。</p>
+<p>黄帝曰刺节言振埃，夫子乃言刺外经〔一〕，去阳病，余不知其所谓也，愿卒闻之。岐伯曰：振埃者，阳气大逆，上〔二〕满于胸中，愤〔三〕瞋〔四〕①肩息，大气逆上，喘喝坐伏②、病恶埃烟，𬳀〔五〕不得息，请言振埃，尚疾于振埃③。黄帝曰：善。取之何如？岐伯曰：取之天容④。黄帝曰：其咳上气，穷诎⑤胸痛者，取之奈何？岐伯曰：取之廉泉⑥。黄帝曰：取之有数乎？岐伯曰：取天容者，无过一里〔六〕⑦，取廉泉者，血变而〔七〕止。帝曰：善哉。</p>
 </blockquote>
 <p class="lbl unit-lbl"><strong>【교감】</strong></p>
 <p class="jg">〔一〕 <strong class="jg-t">경(經)</strong>: 『갑을』 권9 제3에서 인용한 『구권(九卷)』에는 “经” 아래에 “而” 자가 있다.</p>
 <p class="jg">〔二〕 <strong class="jg-t">상(上)</strong>: 『태소』 권22 「오절자」에는 이 글자가 없다.</p>
 <p class="jg">〔三〕 <strong class="jg-t">분(憤)</strong>: 『태소』 권22 「오절자」에는 “烦” 자로 되어 있다.</p>
 <p class="jg">〔四〕 <strong class="jg-t">진(瞋)</strong>: 장주본에는 “䐜” 자로 되어 있다. 살펴보건대[按] 『갑을』에도 “䐜” 자로 되어 있어 장주본과 맞는다.</p>
-<p class="jg">〔五〕 <strong class="jg-t">오애연(惡埃煙)<img width="45" height="52" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAA0CAAAAAA7qO4VAAABPUlEQVR4nM2W2RLDIAhFvU7+/5fpKKJsajvTh5Bu6gnCVUxB5Qer5d00kNPoWfbBlS9aC6rD+HaekPSdItnZ32jKadxh8Nezc0WaEu2qgyEEAOhZYejWckAJIT5hCGkWng5hQwJEoqDJkrJOkyWP0AYWTeaM8i5rp23i7npeq64eJYHb6CvLsSglX3Ohs/hgVynxzUbtNZc/zbKPL1wZ2R91clZbMrpr31E4Cj2DJl/CxFuZG46uY86lINr1nSaQz4MmKmDYyJHRSkBo2O+vUA1kYnLyZOcJ+pWZopHC2PlmCBxAs4CbSJZPions4p4W6qkeFEFIlelY40iXk+kxoGcFdpokcBFJejEJos7vcFiRIul0DtL4knhGu/lWR1pxsrldM5+XeXHB3iYKbiqR3M3Xs08/p++0tvf8P/kAx2lggLLzj7AAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"></strong>: 『갑을』 권9 제3에는 “咽噎” 두 글자로 되어 있다. 살펴보건대[按] 『옥편(玉篇)』 「식부(食部)」에 “<img width="52" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA2CAAAAACt2+U8AAABGUlEQVR4nM1V7RLDIAgju77/K2e3syqgoN3to/5o1SMBMQgo18dDbg065tsQ4RYI1i7B9fAgAgz+chDK97RjiooSwWA/BcnXQXwDRJWMmGK8XIhgZvyiogXB/KaIfv+VFLI5+D+VcxpmzQrawmePRdw1VdhLOdPAqM+E8sUe2iUC5heBg3IfOKiJCgh9oy37HpoInIxEcWEV8SQ8nByLcsd4Xn98cp0IOidcaY9zHu+JF1HhPbHNcLOugQuesItJBcuIRD1xMNZKJWXaq32aCK5iVCAGGNuyIk9iLLDouak9gp4bC8+qfnj3xC91sQ3lPmKonKiEp42abV6Da5ox52ZA4Tzp8CgfLg1q0u16ogpkvwjXMsrH70BPz35Kj5HFmmMAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">은 어결절이고 혹은 噎 자이니, 음식이 내려가지 않는 것이다.(<img width="52" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA2CAAAAACt2+U8AAABGUlEQVR4nM1V7RLDIAgju77/K2e3syqgoN3to/5o1SMBMQgo18dDbg065tsQ4RYI1i7B9fAgAgz+chDK97RjiooSwWA/BcnXQXwDRJWMmGK8XIhgZvyiogXB/KaIfv+VFLI5+D+VcxpmzQrawmePRdw1VdhLOdPAqM+E8sUe2iUC5heBg3IfOKiJCgh9oy37HpoInIxEcWEV8SQ8nByLcsd4Xn98cp0IOidcaY9zHu+JF1HhPbHNcLOugQuesItJBcuIRD1xMNZKJWXaq32aCK5iVCAGGNuyIk9iLLDouak9gp4bC8+qfnj3xC91sQ3lPmKonKiEp42abV6Da5ox52ZA4Tzp8CgfLg1q0u16ogpkvwjXMsrH70BPz35Kj5HFmmMAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">，於結切，或噎字，食不下也。)”라고 하였다. 웅본(熊本)·주본에 “<img width="49" height="52" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAA0CAAAAAAGOo9zAAABD0lEQVR4nN1W267EIAhkjP//y2zW1nZQUHnZnBwemloYZLjtQiUpRf4iovYXiAhxAh/cO/A82MU+KpgDkOeBNEJ+gNAtQhvhw3p0gQhMXb5+LifX5641jrvJKBryiAIDITaxszAPdZCdEp4vxSqJs6rDT+ZcPWYqoou+QnssyMDnMQ7FPAFuBUPLLk49sl3SZGgT0wRFHNHtHTBeOMGvE/SzH9WFfiPhbs7MIBhx+zhZwvXUMBkVuwzqMabqbCcGUmMVwfm60+wiuuOOn+p/1O0mlGkQy3B2U6R55gwso35b/5IFSF0A2qaPEFZolbdUYf374b07iFkdEgKv4sjqjkotYi14/Z3P+RPMP/l/9QHtKD6KdGahJwAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림">” 자로 된 것은 옳지 않다.</p>
+<p class="jg">〔五〕 <strong class="jg-t">오애연(惡埃煙)𬳀</strong>: 『갑을』 권9 제3에는 “咽噎” 두 글자로 되어 있다. 살펴보건대[按] 『옥편(玉篇)』 「식부(食部)」에 “𬳀은 어결절이고 혹은 噎 자이니, 음식이 내려가지 않는 것이다.(𬳀，於結切，或噎字，食不下也。)”라고 하였다. 웅본(熊本)·주본에 “<img width="49" height="52" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAA0CAAAAAAGOo9zAAABD0lEQVR4nN1W267EIAhkjP//y2zW1nZQUHnZnBwemloYZLjtQiUpRf4iovYXiAhxAh/cO/A82MU+KpgDkOeBNEJ+gNAtQhvhw3p0gQhMXb5+LifX5641jrvJKBryiAIDITaxszAPdZCdEp4vxSqJs6rDT+ZcPWYqoou+QnssyMDnMQ7FPAFuBUPLLk49sl3SZGgT0wRFHNHtHTBeOMGvE/SzH9WFfiPhbs7MIBhx+zhZwvXUMBkVuwzqMabqbCcGUmMVwfm60+wiuuOOn+p/1O0mlGkQy3B2U6R55gwso35b/5IFSF0A2qaPEFZolbdUYf374b07iFkdEgKv4sjqjkotYi14/Z3P+RPMP/l/9QHtKD6KdGahJwAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림">” 자로 된 것은 옳지 않다.</p>
 <p class="jg">〔六〕 <strong class="jg-t">무과일리(無過一里)</strong>: 『태소』 권22 「오절자」에는 “一里” 아래에 “而止” 두 글자가 있다. 『갑을』 권9 제3에는 “깊이가 1리를 넘지 않음(深无一里)”으로 되어 있다.</p>
 <p class="jg">〔七〕 <strong class="jg-t">이(而)</strong>: 『갑을』 권9 제3에는 “깊이가 1촌을 넘지 않음(深无一寸)”으로 되어 있다.</p>
 <p class="lbl unit-lbl"><strong>【주석】</strong></p>
@@ -16072,7 +16075,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p class="lbl zs"><strong>⑮ 훈(熏)</strong>: 『시(詩)』 「운한(雲漢)」 전(傳)에 “훈(熏)은 태우는 것이다.(熏、灼也。)”라고 하였다.</p>
 <p class="pgm"><span class="page-marker">p.567</span></p>
 <p class="lbl unit-lbl"><strong>【번역】</strong></p>
-<p>기백(岐伯)이 말했다. “경맥은 흘러 다니며 멈추지 않아 하늘의 운행과 서로 같고 땅의 통로와 서로 맞습니다. 그러므로 하늘의 해·달과 여러 별의 운행이 일정한 도수를 잃으면 일식과 월식[日月薄蝕]이 나타나고, 땅의 구획[地之分<img width="55" height="62" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA+CAAAAACqv9xSAAABG0lEQVR4nNVW0Q7DIAj0zP7/l29JYyMoiLgt6XhqkeOoh1SwHFkt/4F7rRZxP7RNAAfcFUAXNnrYcFBhtBAywKkThovmvsQawsQVMgOkqJP7bOx8eatnMIz7qcWgWCB2+gUteM5o1mkLPhs/7WtcWYLuRnc2Pt2hqhXEoRB5wzphuxUuMWvqVhQj3JoRWb7Z6nIPWNJzCQm+hNWdsvgjvoQkdQlDHicNmJKs9St5Pqw/2K8Tsytz/k7+f8X/4of832l0i69fAlnHcPNxQ79rlZNXDU9Th76uWpvJ/aTJ7+iOHuwor3HYPh01qtOxL/U19SsO+ahyYMIhBkJcBvs9a4tR2n3TQDgz4V1hI4PMnNCBFAUl+J44X8rTcG8F+UOL9fXNnQAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림">]이 일정한 길을 잃으면 물이 넘쳐 범람하고 풀이 말라 자라지 못하며 오곡이 번식하지 못합니다. 또 예를 들면, 길이 통하지 않으면 서로 오가지 못하고, 거리에 모여 살거나 작은 고을에 살거나 하여 서로 다른 곳에 떨어져 있게 됩니다. 혈기가 운행하는 형편도 이와 같으니, 그 까닭을 말씀드리겠습니다. 사람 몸의 혈맥과 영위(營衛)는 쉬지 않고 두루 흐릅니다. 위로 말하면 성수(星宿)를 본뜨고, 아래로 말하면 땅의 길[地道]을 본뜹니다. 만약 한사(寒邪)가 경락에 침입하면 혈맥이 엉기고 껄끄러워져 통하지 않고, 통하지 않으면 위기가 쌓여 뭉쳐 잘 흐르지 못해 정상적으로 오가며 운행하지 못하므로, 모여서 옹종이 됩니다. 이로부터 한사가 열로 바뀌고, 열이 성하면 살을 썩게 하며, 살이 썩으면 고름이 됩니다. 고름이 빠지지 않으면 힘줄을 문드러지게 하고, 힘줄이 문드러지면 뼈를 상하게 하며, 뼈가 상하면 골수가 녹고, 골수가 녹으면 뼛속이 빕니다. 기가 펴서 흩어지지 못하면 혈도 이지러져 줄어들고, 그 때문에 근골과 기육(肌肉)이 서로 영양하지 못하며, 경맥이 무너져 새고, 안으로 오장을 달굽니다. 오장이 손상을 입으면 죽게 됩니다.”</p>
+<p>기백(岐伯)이 말했다. “경맥은 흘러 다니며 멈추지 않아 하늘의 운행과 서로 같고 땅의 통로와 서로 맞습니다. 그러므로 하늘의 해·달과 여러 별의 운행이 일정한 도수를 잃으면 일식과 월식[日月薄蝕]이 나타나고, 땅의 구획[地之分画]이 일정한 길을 잃으면 물이 넘쳐 범람하고 풀이 말라 자라지 못하며 오곡이 번식하지 못합니다. 또 예를 들면, 길이 통하지 않으면 서로 오가지 못하고, 거리에 모여 살거나 작은 고을에 살거나 하여 서로 다른 곳에 떨어져 있게 됩니다. 혈기가 운행하는 형편도 이와 같으니, 그 까닭을 말씀드리겠습니다. 사람 몸의 혈맥과 영위(營衛)는 쉬지 않고 두루 흐릅니다. 위로 말하면 성수(星宿)를 본뜨고, 아래로 말하면 땅의 길[地道]을 본뜹니다. 만약 한사(寒邪)가 경락에 침입하면 혈맥이 엉기고 껄끄러워져 통하지 않고, 통하지 않으면 위기가 쌓여 뭉쳐 잘 흐르지 못해 정상적으로 오가며 운행하지 못하므로, 모여서 옹종이 됩니다. 이로부터 한사가 열로 바뀌고, 열이 성하면 살을 썩게 하며, 살이 썩으면 고름이 됩니다. 고름이 빠지지 않으면 힘줄을 문드러지게 하고, 힘줄이 문드러지면 뼈를 상하게 하며, 뼈가 상하면 골수가 녹고, 골수가 녹으면 뼛속이 빕니다. 기가 펴서 흩어지지 못하면 혈도 이지러져 줄어들고, 그 때문에 근골과 기육(肌肉)이 서로 영양하지 못하며, 경맥이 무너져 새고, 안으로 오장을 달굽니다. 오장이 손상을 입으면 죽게 됩니다.”</p>
 <blockquote>
 <p>黄帝曰：愿尽〔一〕闻痈疽之形，与忌曰〔二〕名①。岐伯曰：痈〔三〕发于嗌②中〔四〕，名曰猛疽，猛疽不治〔五〕，化〔六〕为脓，脓不泻，塞〔七〕咽，半日〔八〕死；其化为脓者，泻〔九〕则合〔十〕豕膏③，冷食〔十一〕，三日而已。</p>
 </blockquote>
@@ -16794,10 +16797,10 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>国（673）</p>
 <p>固（673）</p>
 <p>败（673）</p>
-<p><img width="54" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAAAAACpLjUBAAAA80lEQVR4nNWW6w7CIAyFd8je/5U/o25OR2+wxGh/EAI9PaUtBbHMSFv+ALZmCroPjLLpipMKnXzukpN9sClWdWCRugK2awnApSPJm1zsti4c9zHWDkYX5gpzIdEcbPmAVX0MbwCJHf/i0OPonHRDbctISEhhOqldYCMJCbkJg419oiknlbNpsDc0j0YhexsoSMVsBUPN0tEvPlQMl4n2DnbC6DHbKlqdvd1JwGHCKrfa2TjjVr/zRuc82mufLawt5hKgDMb3PhjEsFZC4cOKjwARmxIjbt6wlF+rb7CunIuRPGp/yaQ/W+k7a4akfk0HZbK4brtiNnYXDP+5AAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">（673）</p>
+<p>钛（673）</p>
 <p>蚤（673）</p>
 <p class="pgm"><span class="page-marker">p.582</span></p>
-<p><img width="57" height="53" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA1CAAAAADesRwiAAABAElEQVR4nN2W6xICIQiFPU7v/8qn6bImLIgwNTXxYy2XTy6CK9iK0tsfkEBIYsoQ2u3PwajUQU9N5MnMrIjT1CpOw2VYpBUZ/B8vMk5Jk6qDtGsJYjjUIDLk2qSTu4sHaLOfqCEmIFZz+5C+U0BasIqTK5Qr0nGf4+GSdptx6qbcrmAaZH/uCpXNnS3lePTUCdLugaoM7XDCM7cSXMFzjHslOE1SVYuJzO1HrT8hyXSHDbL0JeytivaKubeQ+IJN+gqs2yTr3rJE0n0TkXDfhP2Jqk1LxDlkh0Mvr/q8Va7R8na6BMlVh559TWKUIbEajdUM0o+LekJ5m5Afut9uyBU8yDpn7xBAPQAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> (673)</p>
+<p>制 (673)</p>
 <p>知 (673)</p>
 <p>和 (674)</p>
 <p>委 (674)</p>
@@ -16826,7 +16829,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>股 (677)</p>
 <p>肥 (677)</p>
 <p>胁 (677)</p>
-<p><img width="58" height="52" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA0CAAAAAD+2nSEAAABFUlEQVR4nOVW7Q7DIAjkDO//yresNR1SEbX7s4xk2VY4vg6loOxKkR+Dqv0DkbB0iFeCjTLCon5zBE2E+7UCD9oEPOgwYijnsNoDMmkZw6hZsykBFClNkCDhOX5lucPkx3nZIhVtwkGeDDUlYZMxzybhnoUpzdQqs7XCjcvlkUus0Bz51fPanaYWSVtVMk0OWT+jTEpO/V2qkquVHsLte5hioeu7pySuuw/peMXM3LMb1QXJCyjXr06Lx3CNkDlZmlqE+66sTwQclF9YHJz2UEJkeuo0QJrrDM7kvR6OA9nqO5Fwc47TTJMGI6ZHG/0t6PQtQVkRXbKmTeTsVRzUZkynqqth+JZ2ijext/8IzM7zP3offgEoEk1mNZnleQAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> (677)</p>
+<p>周 (677)</p>
 <p>鱼 (677)</p>
 <p>狐 (677)</p>
 <p>饱 (677)</p>
@@ -16929,7 +16932,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>追 (694)</p>
 <p>律 (694)</p>
 <p>须 (694)</p>
-<p><img width="54" height="66" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAABCCAAAAAA5nXrWAAABSUlEQVR4nN2WQRbDIAhEGV/uf+XpookKghh2LYs2IXwBgRhQKtLkXzCUMBS9lTDUMClhqGGsYeJx+IWevOLd41tvmH97AcbVgmHYdwXGFXwMrt9J+4AKG0vr3Ix7b0tgFYsBjbeUGEG8rhslwOhqdCgrxpsztoywNTXMBH1M2WTSNmWCeoCtN4kUfpBrjNys0ruEd8OzQ9NCaySPWX/CfbswGFPIgbRX/Rh0CY/6bGDYWy3SNEX1MO6YtkmMR7nxLLuBzQC/f0lTu2cAZgqbndRCtQT1bYyJGiI4/b05A0S/1dV6Ojd4I+nFcbkDncrcJa7Q1V5plzD8CuoTzdxPWG4s1LqVXpfADVjN1uHRQXN/htEqrgIjOUY/313dxD+9k9zoUZi83S9y148RVQBjxYyyo8LI/onHlPv7FmJERd5ywRzMT3y9FrEPso5gg6AxZY4AAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (694)</p>
+<p>剉 (694)</p>
 <p>食 (694)</p>
 <p>胆 (694)</p>
 <p>脉 (694)</p>
@@ -16963,12 +16966,12 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>恢 (698)</p>
 <p>恍 (698)</p>
 <p>恬 (698)</p>
-<p><img width="53" height="55" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAA3CAAAAACJRV2nAAABNUlEQVR4nNVWSXLDMAwzMv7/l9GpHYcbSNk9dFoeMhJFcIFoKuD2A3lt/x4FKOXIBo7farInE1bQwwzxC2ygCWJ6Q8EtAoxODxmL7ebtCc/qQsN8uUYzzIV2sTARb7FgMaT7Uxhj9dkIUKkLdu7gTA3Z1EWxpylf67SE9PeFsriDihLr3Dt3qLb41HugPFubcGBKnAZ3M0RYDB01yO4u0QQLFycbnw7nNsp1LDOEMAzNsY/flUlMwmLxWqxB49w4RZVa68Jhetj6251R6PwPKHRJxWCKeSr3WKC4SE+hyGb6+GBizncvhTNYfCnQm2ZiZ0bTjH3WG9CoKuo5Ut0bSuCd7s3EUTyYGgXjqmutpucXXVK6F9eS7jXIHloO2R0kFPltq0nL91aP0Q1uw87/2W5k+EdRX7NVSYyx5cj+AAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> (698)</p>
+<p>𢙐 (698)</p>
 <p>举 (698)</p>
 <p>宣 (698)</p>
 <p>宦 (698)</p>
 <p>客 (698)</p>
-<p><img width="49" height="55" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAA3CAAAAACArv3dAAABBElEQVR4nN1WWw7DMAgDxP2vzKS2eUDikFbVpI2PKS025qHQsdFNE/plBvPAaK8QhzyD26uXsiKyx5VriJBK0KYGt2NX+VLBIoN3O0WFAcvgYU5aZB1sFUS6aCH6FSkyBSdcKCFB6fxVZDkcdQHXcp4x8w9RrGOczq2ZyD50kdWhXzvFMw2OeJv2ywaNEjhifL+lPQc3GoqeXj4AfsqAos3LUyBnvTLKTHAwoKR7MDoL9RpLQmeYgbIU/9jdn3xf2SygdWsnySpeWXvti2OTE2YwQNzYPsCE7prUU7h3hspSj3E2r16hesGj3R6Md3b7rkkGSG9tfnkFu77HsPpzGf/Jv74PttA7g+M2yEAAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (698)</p>
+<p>窃 (698)</p>
 <p class="pgm"><span class="page-marker">p.584</span></p>
 <p>语 (698)</p>
 <p>神 (698)</p>
@@ -17118,7 +17121,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>脱 (714)</p>
 <p>猪 (715)</p>
 <p>猛 (715)</p>
-<p><img width="51" height="43" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAArCAAAAADwT+8AAAABBElEQVR4nM1VSxbDIAgEHve/8vQ10SgIlHZVNkaZ4acEBn0tQv/L0fnBRHtqTHYfcuiNsyhnJomN3+YdLedwDGr48YKP+VCetklOmpTCD2XV403D2HMfyrFs/p8tghqwWdzp3CEEGRdY2gstKQVY68wQ9f1gIJ5EV1nVwu4KnF7NiRpKdEG8inZyrCzg4VUdClUNh8hhavYDXO1CP1aQPz6lJJjrccVRamasSEuPk+cm03LoQnK3kfTX2HDYL69IQrNcRqmpNaQ8aVAaftiH50USSnUoNQWN2Njjj4Yr/9dINRKA727hlC25/YsUPcJ9Nj6K+Gea+ulMBjfnWsOkM+f8lH0BOBtGdU+7lSkAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (715)</p>
+<p>𬳀 (715)</p>
 <p>减 (715)</p>
 <p>毫 (715)</p>
 <p>孰 (715)</p>
@@ -17140,15 +17143,15 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>渗 (716)</p>
 <p>惟 (716)</p>
 <p>惊 (716)</p>
-<p><img width="56" height="59" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA7CAAAAAALeRZsAAABUklEQVR4nN2X246DMAxEPaj//8tTwUJxfJmkPK1qVUUkPtiJLwHQnslmPwHiIQj5hBaE5wryFUwc0cGCx1tQSFo47aMF84M5uBlQ72rBDQI/0e8qTUoFnssyGUkZRwjyQeZwtjl64dtkSzjcuLst+OXd4/776NJjt6vFeujNpeCcFouMplpBtTkVtwvGsb6s7O/fX326gvNiF+FY5ZabFanBziBFjdQW6Qq5sVyCQ+ittlyBlXsYLheYNT8KsethtBjTK/QAVonEshddeVe3vttiJ+inMugMKlFx/A68Y6+l6zmccHlXHYGsfs+K9oiekuGAcnTaOr4AQzbTrxlzi06F9XANjsVxSGxqTQKkm6u2Q1mtbAzOC2Ynso1VHF+XtqUFWnaiPTtskq2v1TNnsR7VyZjA5ZdsRIurJA86aF/tcJp/EdzVVA81NbYk/+srQMobL9pWhpQ7fUUAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (716)</p>
+<p>悗 (716)</p>
 <p class="pgm"><span class="page-marker">p.586</span></p>
-<p><img width="60" height="50" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAyCAAAAAAlnefeAAABIklEQVR4nN1Wwa7DIAxLIv7/lz2NtrSASVIOk97zZdMSx4aMgEL2YfK/yarkt3PDVMTbusYEIdfgzCZqeOiYl6qB/cKTc93Xe82TP6osj8JlmXqVdWoZq3iyNfJRmmtUNne6QLm4UadZWa2EN3oYlbeocpKhQSqPGymYhjE7WejFyu4ZiLJgQ7v0Ndf67C9WMv4qSzH1xKJRc3vSyVvJH0Xfdh98DqjBxVL5DsbNM3mRjOPYErKuBybaB+JW1Z60jes5On+fJ047512/0U3/Sh6sfjO6mmxgYGuSHIDTTReY15/mw9vtdpUNu3goPJs1K4+n6XktDoinp7OcMuS8micW14/JDOF1bZIAfvCUwhYZDm0Z0uj15caRsLfCH3i4MnwAEJ1aZdS3+NIAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (716)</p>
+<p>淖 (716)</p>
 <p>寅 (716)</p>
 <p>宿 (716)</p>
 <p>密 (716)</p>
 <p>谋 (716)</p>
 <p>谓 (716)</p>
-<p><img width="61" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA2CAAAAABRzs72AAABV0lEQVR4nOVX0Y7DIAzDiP//ZZ+u0I4EB2jXl9MxaRUlTkxiwgamL0ZOfxwN9C9hp+l35l71aAyr/QzHR+FzZ+Ti947qZIAXgzDlU1RlbO4DFPOHmimTNVo+fFJvxuB0JeoIwdn2OWHO9GBkxeeNrHHtrpiQd+kX4x89fltrMBoPGCBAYwWM4EWZEVJs7hSl84VXo9m/icma3GZgtWbRp4neBwfmPdXWFKaZKH4n3iCqGxV6azCK3XbKlp+hiDafumLtIVhbXy/eJZyaCiYlMrw8NUWgrz8duh4x2ZkQh883eI4jpweDV4iojY4StyfP7FvV9lw6vsHDxpZlrdRTOqqi+d2s8TrwGz22uFBRT5nGxgdcL7S9zp6X9yXu7BuDgwkcvVpqK5RS0ScQXU+1YB3UdRrxM+kj4xU8z9ZF5iedaYzl8W5aFt5NDgYq2L3wpW7xT/8b/AAK32CN98jw2gAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> (717)</p>
+<p>𬤊 (717)</p>
 <p>敢 (717)</p>
 <p>弹 (717)</p>
 <p>随 (717)</p>
@@ -17162,8 +17165,8 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>趋 (717)</p>
 <p>博 (717)</p>
 <p>喜 (717)</p>
-<p><img width="63" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAA2CAAAAABVOx7LAAABXUlEQVR4nN1XUbLDIAh0He5/Zd4ksTHgotj2o/OYaVOjC6uLaKHlI6vlv+GBj/DY81BH+P2dMVn0o5Su8OlWd/A4PmooXT80g4d52C5d65dZBelDHxNTi9bYU+2RrGymEW8SaIKqxi5lyfAYalQ0k6uvl4Rie8cY6qif3iTPeGfb0mIk5Q3NnmkoBEbSNAwhUVREGffd+iEzjR0XhHidRNC28HaMRrPCwOaSs8tn0kkYnNLRyfpP4bZgOBM/rs0JwXx9Uzz4bnC9g/0P3qs5PNZxEDSFhmT5zLnUG6fsJFrykjsmJzqara11GYE57mRrGs/zqE4hSf282VrbG6TI1uHNAZrExRoPEnuLP7iI7G4hc/dgDs7t2fjVBHYsUdn8wQXnNQ4h/0Zw4/7wsHZohuy/dn6ojW9VX3Af6h83vcqGd6a0rMDXeHdxHMElrrLmxuKvZwl8Sdrv/X/Ysz8oR1+aenOD3gAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> (717)</p>
-<p><img width="59" height="53" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAA1CAAAAADaRMwfAAABHUlEQVR4nN1W0Q7DIAjkjP//y7esW22hgNgsSzYemoqcBwgqKLelyd9hgWySjk5EaP6KvHA+34sXlz/ARL/H63nGoXwavQa8YrN06vWk4HNB2vewPA+60sVh05mr8/I2Fg6+T+nUJlex0xOlzQzOKQKqvJgpmtyXvmDLjLfcER+uZ8Z2rMRr2/wUB8xSLYTuxyTD4xaL58ZbuLpHQ1ioZ+QJgx1ry7iJZLq/I1OeKF7jo0ojlZ3NVZ5rjCWwU6Z7pCK+TvWMcbLrXVaFHnYoRzm7F5wcbtG53xGtRMdnrXPo6JVHVBuGtparo3e3CshS3T2kP0qxh6kNza/qHh0oc6i0KyctgrV4qQfbimEb9tS15wXKpfekFOVH3khKHgIOTH90jeoEAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> (717)</p>
+<p>𬢎 (717)</p>
+<p>募 (717)</p>
 <p>葱 (717)</p>
 <p>葵 (718)</p>
 <p>散 (718)</p>
@@ -17203,7 +17206,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>腊 (721)</p>
 <p>腓 (721)</p>
 <p>腘 (721)</p>
-<p><img width="50" height="42" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAqCAAAAADU0VebAAABAUlEQVR4nNVTSxLFIAgTxvtfmTe11kIM2k5Xz4W1mPAJIlbeLi3/QRHZU+QsX0o5DieBKSK3Xdq3Qa0zCEm8uU52HsH7tyUal31XzJ5RagjL6p+SVv9DFbNlFLZmZWp2S0W02P0nyzDKAuhdagazcPIa1DSB/uTmZmnbhbnPmlPPSyi/i4JgXss1E2MrW4rc30x4DUA/TffrceWBYl1+N7KX+arVIDFomGdEHzpOSep7xcjAl5wieJfYK72LKImvpiauF4F0h4amlD3FvMACiWFfXP/fRckoQi5cCVCNMj8IixLoDMZZR9KgRLfjRHImiS2mK1CWfoe17QfFDe8S29cPJ4xDYcQJ29IAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (721)</p>
+<p>䐃 (721)</p>
 <p>脾 (721)</p>
 <p>腋 (722)</p>
 <p>腕 (722)</p>
@@ -17226,7 +17229,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>割 (724)</p>
 <p>寒 (724)</p>
 <p>富 (724)</p>
-<p><img width="50" height="42" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAqCAAAAADU0VebAAAA6ElEQVR4nM1U0Q4DIQijZP//y122O3eAoPg2kksOtYVWAyinofKnkNfzCxFWWV4F93clLnuWPoFB5fdH0O2wA0kYRE8QmWOkkZyoh4EgO8SVyXA0B40xImIZOvnfEuEiIv3NcEGsapuw9cZIe9Jx3WWdY4PXtjRjdIUI4uyDWVhL5PJZQ2aEzI5VeEbH+OzsBohWXG0IGzBN1nAMwVljndCyCI+rsDP6vI4xejiJU6kiHQcFxI0ZbBuTiRX2LTdNRuv2sYRqg3ajBfHAJEV2WhKTY5UYa5OneVTEA7laaOB+WpKm/dIvewOMfkJTfUhzAAAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> (724)</p>
+<p>窗 (724)</p>
 <p class="pgm"><span class="page-marker">p.587</span></p>
 <p>窘 (724)</p>
 <p>属 (724)</p>
@@ -17266,9 +17269,9 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>解 (728)</p>
 <p>廉 (728)</p>
 <p>痱 (728)</p>
-<p><img width="41" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAA2CAAAAAB/i+9kAAABDElEQVR4nM1W2xaDMAhrPPz/L2dHqx2XQu3T1oc6NQ0JIGdge7mO9ndIvEWiASUS+j0KJLZ04tq55x1ekswB56+TWivnWid19NIOjM5bTtEvEikTPUekGgCaq6S6CIs/Fj58dKtzo0bUYVEhr5e0B9rMe2eBUyrfeN4CNr8jRiTeeoeiODf6A2IJbWLNHZg1Hd23IhkwqaZZVh9D9CeYAtoH8H1rGTFDDmGdXTnlnHO2GB2FdCuSI8QeVVpmCb03A1aCnigRhlOlQx/rGxVSDa7oJeic2WY6bYqkir75VilDwvLd1Vvmk5oRjnN0XDVAZQDuweECzKKzZGzae1LLyBlQzwhbIn2Q3/5n+ADtl1N1h5XQFQAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> (728)</p>
+<p>痹 (728)</p>
 <p>痿 (728)</p>
-<p><img width="42" height="56" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA4CAAAAACutjUXAAABFUlEQVR4nMVVW5LDMAgDhvtfWTtt0hgBdtzZbZePPIwihMFEIbtm8s9QzwsqIthn1d8KsLyAKa1zTIgg4jQIN1aX7sSuWGVyKWq1FlNtocC4FrMY5oKgQ/vl1Vok3jg9/EoetPW1gQyZtFo9u6gCRG6Uzuvl2CA9OHizEOIGVq6Zc9h50YRKgCVSUrtsQBHJS3m1FjYZlq39sFmGFp5vBDuBuFSvxYZVtjZrxyw8Y0crpGnsGSsqbz40dt7PhhuYx4XBzl/Gbny+6xgVdiMQi+mCOL/4gCJBE2f4zJfhicDH2gjdm1MCSzU+89XpbeQqeKymS7KQgMut5dZG8E2CaKPxgOITv2PIH7PiTQHVuh14Q8BXoT+iAFB5y0EghQAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> (728)</p>
+<p>瘅 (728)</p>
 <p>新 (728)</p>
 <p>意 (728)</p>
 <p>阙 (728)</p>
@@ -17313,56 +17316,56 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>熇 (732)</p>
 <p>漯 (732)</p>
 <p class="pgm"><span class="page-marker">p.588</span></p>
-<p><img width="51" height="53" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA1CAAAAADJk4zrAAABM0lEQVR4nNVW25LFIAgzjP//y9k59iJCrPbMPuzyoFIJREQtWF6LlX+FARYY+BygFH6as22DBQbSK1fcSN9NxEKY1rB7V+g68rogv55rUK2fXf3MhySa9uSGuDWE9QihT4sXO7rJ1o/ZeObW5CiIW3rWrX9M0z6436cqEPcImqOpOMEo1oJl+5iPtkP+gJjwixF3qshnAZqk4mvlvdi+KSIGL+LUFXn4IpcYpoj+vqBaDxXJVA11YnD19601zTVyEJEc0+4fxULcU6UYTeIwnhy3nBgHnX/kKC47G7TkFBv1hvJ17VDA+wtSdxzfHLh3FjAoxyXJfFk/rYoyDpckazObv57n1MWG0xzQket+ZF1zk59t2GhMmYJUCk2z4fZ/iJd+uJNY/jTYKpfTOA/yl//5fgAKQlVrkqcRdgAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> (732)</p>
-<p><img width="51" height="59" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA7CAAAAADzme2bAAABNElEQVR4nM1W0RLDIAgznP//y9l10w4RUHt7GA89q8TESK1gOQ4p/4upcxeuBx/w4AiDsuKpLZHv3J6ZbwColFxtrBBNmxKPxVpuDBXAzLHUpmLDgymaKR0LPQkCnm80YxQ1Pq3VsgeMmPc7gVMXNmqUT+qaAaEkmIi3BgnYqNEShTMi+9qw0saEXRKI9Qz+nnICcwaJM/01ClcXtjzAiMXsAVz9NG7UcVilzYJ7Swae/PTooxKnTC4Yrz/hrkZhXa+L67UFVdPrBn71/+FmNh0eHPAkkPk4KL2uE3XBGYIY4YCkqQpRzkBNGRqonfeGJw9T7VJOQAqDLWBYo2z8D+4UzHZMbK7f3uFB1i3DjHx43zn8fqjayYLqetr7Z2++OdI94L8PLQGOAH0r88LDrOKf78ovVCdVdaN6NHsAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (732)</p>
+<p>漳 (732)</p>
+<p>漏 (732)</p>
 <p>慓 (732)</p>
 <p>慢 (732)</p>
 <p>察 (732)</p>
 <p>谭 (732)</p>
 <p>十五画</p>
-<p><img width="53" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAA2CAAAAABCGY4CAAABDElEQVR4nM2W2w7DIAxDY7T//2VParuWi0MC0qTysJXAIW4SKKBttGJvpz6TMZjx+LXjoR7xooGuz8gXmslHr1u79gVv8ik1jgYGAxwKA9s4gKQwOmsdIJ0v6E7x9U3MZQ45Y2FFQQVnVlEtxq3qxUhhDVvZKdii7M764q5ELoZspVmG4u+v4xYVcouyBEXP8M/zEH2fysyqZiEkRvmCtGoKwVrx/rJDFvZjSMtRrFMWngCsXw5DHZ6Rx5RKK4Q2B5RJrNacO2salUXEKm5Rvtivh4fiokOopap2XwIqQ1wbJptbGxilJL4pvDA5qBXSW2tKRWQRc3klwqfEe/F5uC41wwXMvX1N2/vvol9u/0B5Qs1AfwAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> (732)</p>
+<p>聪 (732)</p>
 <p>蕃 (732)</p>
 <p>横 (732)</p>
 <p>醉(733)</p>
 <p>顑 (733)</p>
 <p>暴 (733)</p>
 <p>影 (733)</p>
-<p><img width="52" height="56" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA4CAAAAACX0YRMAAABDUlEQVR4nNVWWxLDIAh0M97/ytvJw6iARNK00/KRMcKG5SEGTHFZ0r+DEAcBGpUDDt6LKfuOGAJhBBiDEKWHa89gtaSwX1XrFsuH2IHg0+m/883eyx4RqOUFCH2ZurfpRPBOTJAgTKFwK3s4FwdX9Hq2bV51nPHEzUq1+zIfiawT0kBg6nxPsLefbFjodMiYMEmMIXqcoudLCIQQCLOz3EnK5onpgzExcAgZ88T9YXbEIWrGHCO7jGt2JxftXkHJaUePHhkYYdRGowTJ4kKuyz0DdT+hRm2xkomodcKAi8HikS4njbdaoAbEVmOlXKBOTzRMRgz3lNMNRV384sJLzXZbmT7tA5AvP/U7quUF/NlIe1PB0qcAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (733)</p>
+<p>颙 (733)</p>
 <p>骺 (733)</p>
 <p>稽 (733)</p>
-<p><img width="68" height="71" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABHCAAAAACb7L7AAAABoUlEQVR4nN1X0baEIAh0PP3/L8+eylIKUKyH7uXBs6mMwAi4YHouOf0rkKX9wDbykSU7xoS0IHwvJoyDgF9kB7NhwWfcyXNqQNwdrAPlN41rr+oq59V5bFieO7AWeKxiwJJDTJcJBwSbHvt5uW9R3cFFs5feGghuipLRG1lL9zyUkXIHO7wVcUMiYu1QjOFKd7qjaSAKIoSxgivcYfF0uySBGnFNQBwgzadmZD+wCDYPI3eQWO7+fUWZo/ACY0fTLdRDcjPQuWwc5setJ1TJMUFknjDFRLgz+yzIQQx0LbnsxGhS6uxgLZBukRoASd7NhwcyHFbABIlQAwMkRi8MS9I8yqJNctSyUgM0S3gOtpSejhYk0DXJNb2PNwEqiKZGx4QVpWn6u1fnox5V3bLnXK2nZLF/OAWbF84Bsptod2Upx/LmUxMTjlEiW9vGDRt2ZD3FgGdta7CeW31ZG1P02tNZyw8w6LpD7yXc7ou8Y80wFWQzAf/mn+tsekK5EKGYVbsFbKYVubHDiUB3KWb9hZf+jUI1LMgO37AkqfLZyzYnP1n/aq//5DFDAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> (733)</p>
+<p>稸 (733)</p>
 <p>德 (733)</p>
 <p>膝 (733)</p>
 <p>熟 (733)</p>
-<p><img width="58" height="56" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA4CAAAAACJGLT/AAABc0lEQVR4nNVW25KFMAgjnf3/X87Oqr0AQXucfTk8OEobCJdSQXsrzb4M+qOUMOM7KMaTbwgD08i7WJGsTcHk1Bn6HaeGl5oSeiKYSdJpKAiXKYH/giB8n5RF+J8tgbAUIkANnUtnqnTsnK8XYTikEmQNo36UtkggPTT6HJ+izNbREZpIaOGM1TXYZn2bj6D36vXOosW4EA6pud6PRXzWTafVo2I1ezlgptT5tcLrVqLaR7slYY3UadKEQ03HMeAsE8s0BWwqLHczfJeClowJ+9rWYJQHoVbbXV13b9wWcWTtT0PdDRH2mD5B7WHLWVVbotB1pbhlvY6F18xq55JE1cCPLQHhdB0YQxChwXS3QWUJHtrTaIBjKCcrHNSRS9Gh+F4z3O/1TN1w/BN47BjhvYSib/AXxYr1XsMvRXJruU6J8Jj/kz4zkQgNXgcWYUtPqruoir0bF0dn93DYIaC6j4YsE1VPy0vviTOs3EE35Ov+/X8BOE91bftO9M8AAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (733)</p>
-<p><img width="65" height="55" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAA3CAAAAAB253hFAAABUElEQVR4nN2XyZLDIAxE6ZT//5d7quKRI4E27BymhkNsDHpqJLaA42F5jf9AOKIGjMHHGnCDAGTVkgBjcA4BOwSML0dScan4bBGQ1LEgri8YzcJAA8LuFfqIXcD3Wc0o2upWNouCpwSEE7RJwPvHZczZpHp3ChMN7AC8JjsKRo4ShLsuGFuwigOXzckgPHVCgPTJ5hA72cQuQAhIDAv6YdvobSU5/mW6syMljSRzj61IfnOn5ammmudCgANoRiWJA1cu9+KAVRgqAseNEsahvd/bXGBunlTJcSzx4kRg7Gha71BRLmYUlDDcP7svzx8t6gDW84HbVwhOo4B8p326htfziJPG2LNuyiNJ1sSTAC8C59Lkh+JfVt4EpEIuos6Lm01m96ephZMGWpV7S+x3p6Uy3Fyh8+0OAnB3LfcsCD1itZfPxiYmjGb5C/9xnhN+ALgmXYB2n8WzAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> (733)</p>
+<p>瘛 (733)</p>
+<p>瘜 (733)</p>
 <p>颜 (733)</p>
-<p><img width="58" height="58" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA6CAAAAADE0BX0AAABSklEQVR4nNVX2ZIDIQi0Lf//l3srUceLQ5Lah/CSqDSNCOKA6VPJ6ceg5ZjB+MsIFB+zQlOD4MPp8EsDKRGeybKtU98kqI0HcnD0RcxjtGk7TLD4s7mdfRpvatZfNyUkk1xYLw8U+CIRcUAZx2I9nCvhyhoRrKyRvE+VuPiuQVm0HcaJJB+Te5reuFpFSYmaL7YUefrGh3yvKrMqSJo2s77U0Zq42aRjzZR4nxy1DWXTdC9PxljrNeKGCbqCA9XPxpJyKHc7rw5guoSnrqTr4iw67tAx7OGZFSFvIR9nMd/4MJBp3uujM7oc/v0tgSC0SEjZCFXo0sYdlJbDuEyrLM66xpx6na4XtHGAddHG3FzdxrHHDrO9rG6oPYPOEKGpao2DfshzWzWQiZELZlOmCN3CpBBQqr394ecIxAhfCaeQR+t1cvLnvjj+AOuKUpaSc/cQAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> (733)</p>
-<p><img width="61" height="58" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA6CAAAAAAmDA6NAAABQElEQVR4nOVX0RLDIAgjXP//l7Pb1naCgDr3ttweepZAFKQMlA2o/Bkb2GDj9RM5ghcvlLngaQUGzJueuwJdbMPtBDkH7GI7OnuHXoOWAUdLR2FdbMWxx5aFcnxFlpP95U3TlVg4C/RGXansNFn6b+4Yt9gJsMHGqNy0dj6Qo5HLaboux5aGfiwGttCZdPFTNc8HOuUcF9lFZmt8ZL3kanxvIG5RMEFuxrUanQiTM8daX5ZGuQ2DqeI/coV+WwG0fBs45Ty7p5uErVaq24pmCqegO6ElqdTYeLGfk79Tzv2+ZpDesTf8grtjWtl2gDPC6Wo+42yeu5lpgSvpl2iUK7dva81mK01PnMwY7Dl86Ai/JTlcYLT0pn2UHbAbI6NJ01VMNgryWgxOBInkObb0Y6l1wHthaeR4WqPNwJ/+J3oA3kNUdO32/u0AAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (733)</p>
-<p><img width="58" height="60" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA8CAAAAAASifbpAAABKklEQVR4nNVX0RKDIAwjHP//y9mdE2ihSMv2sOXBE2hIrQEUTKfI6c+oZerBdXWUALSIFeMEkD2aqokTHapZdsyqNI8J6jxIDAOUQflZcsqdFlWG0JyNi4RVmJ0BNLtW2JHuGzx3E86paaTinHqCEhClNnHxcdAo3fQeKusr0cm5VFMn7oxoAmOHRxVqwcRU0ZnmonMC+JoRGTkD8IEq4ka8EDRiB3/kuOI5Fd5wTFQ/kH5jR0yJXjPi0BLy/BAJB9yI68KTDZxNNeIItvh7W/Xrst3dz/pUXi4awfdKcd/KdB0oi2iYCeTFaW8yNXqFsQrBfr3WEFWyh/KVoU3xqbVBlpO3JcDZAGtVa3xjsrwe2tkzO5j0fUovopIxiY+arNiIhweVv/vPeQGAIE94Ior5kAAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"> (733)</p>
+<p>熨 (733)</p>
+<p>戮 (733)</p>
+<p>斲 (733)</p>
 <p>十六画</p>
-<p><img width="55" height="58" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA6CAAAAAAxLp5EAAABHUlEQVR4nN1W0RLDIAgjPf//l7PrOjsQXMG+9MZDp85AiikIypJt8mc4wE4zecHxwywOw1ztbSkUnYsYh3hBkQt5Yk6ik92qMDkS24qobq2OocMlYFzTGfugBX8g4UDHg5VSEncKFz+2w597Lv/izr1WMLbRUS6cDPqMyfJc5xBv+Jqtse+n/x72M5hi+Y5nmH1wBYVVdQYzK+gTizjRyTveL6uVQS8V2M063/ZHmatU4lE9TSnNwFw+rwsE13R2Gp/bb+lWgj5G9770E4ejrw/fJZZ4IhgFPOGGCmj7CiaHK94pQp7p4gujlw7DHMAgHi/DkkFeLklyUWe4dS8YcYlc4txm+9HiPUR6w6L2w8hf6v4pmkzEM2/PrBPeXoRgSnemS/h2AAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> (733)</p>
+<p>薤 (733)</p>
 <p>薄 (733)</p>
-<p><img width="60" height="56" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA4CAAAAACEBsS4AAABGklEQVR4nN2XjQ7CMAiEuWXv/8pnNm1L/1hhGo1Ekzr5vBt0DYISj03+EQacMHC8T+pYWT/N7kpaMK2fKRCm7xKzT9n+EhZsN8HOG2WkDG34lcLjpTSp8jWsbZ05Zqmlsl1SNQSjeSg2rnQaW9EdBrTwurCk5M/tbU4fdjat4pp1SldtLHZWJpsk8ZeBnFiUXcG3VZtODJVy6ATe1vo6jr0341eGk9NwiJVoq1DgmLBsQZYZ9jeZRdlLk/HtyRutYl75q8371ZZYtaGW6UT51kniDE4mgzVsAudJZBS0bZd54O33DBPmhSzqT7rP8ymBw5Fmb2UHwYbuYObZqQ6zcrudVa5Ww9hStWl3EVNfg/vAeDKIxc/+TbDjAVKtSnAmEnmRAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> (734)</p>
-<p><img width="62" height="59" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA7CAAAAAAGZ2YrAAABf0lEQVR4nN1XS5bEIAgEnve/MvP8RBGBYPdsZlikbUJBiYgGGb4Rgv8Ox6/g6OMpQA1Q/cFrOD6gtrQOvgjrYYwDUZVvVVF2sBmGG/367N4O/3ggunZaCb2YEUh4oy3fKcHNBppVOYJ3f4YH3rU87Qz4xmOQkxPhm7Lpz14ILH3RaSy5WGPmlZyTvJbNQKeEktStPyCqLimiZCa8lVVa+vrnyHNc9aU+nOBPYQZwCgInXpFrmIgNb5m3wStcmLqtAE2n5TKwEpKMuC/TxblFlpLTK0+TZ+usJ+NKSquWYp+76OyrrQXMwE2d0auNWRQPrhnZQobbJxUJwegI0sLhwvFrrKMMixUDc70CVNkkywU1/DkNjFMhxpP2l8njcn2VeQ2GsNeFwN+7mHEfu9ny00ib2fUFl3b3/r0ijM6LQMAAXfKcYGrgaQ35AzyeoNcq8LZMlbEnkyko9qvaX9fO8fkUP8jeI20XZGLMS6HYZzBHN4W2ZgafwE/5A19SvvwA9dhufSvQ4SAAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (734)</p>
+<p>颠 (734)</p>
+<p>黮 (734)</p>
 <p>踹 (734)</p>
 <p>踵 (734)</p>
 <p>噫 (734)</p>
 <p>赞 (734)</p>
 <p>鼽 (734)</p>
-<p>膨 (73<img width="20" height="41" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAApCAAAAAAQBlaiAAAAUklEQVR4nM3Q0QrAIAiF4XNi7//K/2AtsPQuYvNG+rJEjXI0HUY7owdfkSRR/ekKmfE5sjZCvDPH52xOdB7tjB47Cui9RpSVMF+0nvjdlpb4Fm/QGw5SZjQcTQAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림">)</p>
-<p>膺(7<img width="23" height="42" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAqCAAAAAB9pZ8PAAAAjUlEQVR4nLVT0Q6AIAjkXP//y9cyswN0tlU8qBwMDhDQhlLsGxx2JcB50fsD3pzjQHFEQ1H+jHzQYHbtZV30OENW9afjuyWGVpVZ3u1+QgOWMWzP68KIZzfA/wfUk6s+ZIk4jwO9LoRWyLyQcazjY4I7/jxVjShzdDLov84r/Trxdx4XHza9b8PPezfDdz2dIFI+q3YPAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"><img width="24" height="42" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAqCAAAAACMrsSCAAAAfUlEQVR4nK2TUQ6AIAxDW+L9r1wTQ7RzEKcyw88e61YECuNoWAa2e4IAlAEnUvzYXBkoTUVLyqSsKfqGa1zqwPLmTGXIU7HkQzMAIypJWQjFCtmKFerfGfx1feinZYABtYKU3jfHyOBTBUZg9s9jviIVTz0adIsuFawvfLU7diEcUIlUkN4AAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">)辨(7<img width="26" height="42" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAqCAAAAACIWxS/AAAAnUlEQVR4nLWTyxKAIAhFuUz//8s0mSLPpkWx0nuUlwihzpj+RIDbaRpQbUq8FBQO0RCasXwQKjIUMYxX0GwciOxrqWTZt/YpGjKUsz0Kl+p0eDOx/kyjKLrmltCRZNL2toQU4c0rIyKJ3W2Sl8qhpFh+YG4bdV060sMZhwjLfwdbbddVD9Vh1qE2NxsVCmx2OX+ipbjO43Gicqzv0Ak7gSVPsGd6gAAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"><img width="21" height="39" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAnCAAAAADFzlzsAAAAUElEQVR4nN3SQQrAIAxE0fmh97/yFIq1TQnoSoqCCx/hiyBWsUIr9UgnJHmuQBt9lBd25bJPgbaTUt3G3CtijXo467rgHLgLTih+8B9iCz0BxhkLTpG5q1MAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">)壅 (735)</p>
-<p><img width="54" height="50" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAyCAAAAAAyv3cXAAABQUlEQVR4nNVWyxLDIAiUTv7/l7dTFUVYjOn0Ug6JUZeHLBhB+UZe5Q9gV74kpRQ8tibj8QjWRA6c3Lm1rl9cPaIZOTgSmSOiIY0NRgMLL8KADwp9lOgjTorZpJHWWaNlwJwrUsNaJwUBNjaA2B1v/IbK8h3sTHBQAeiHp47gQQVk0mE+s9K0G2MU5nyQ+v3RZchpN8zYWm7hjQ6OKA4sNqnMbZycqKCKkgsTFdjcJl4bcmHMx5pFQImB+v26coVFScaLuxXmCoSID7HFZrwSHeiZ9LSvoiW02IMNtmdhTYaeZCTXIr4Pjbwl9AOZIyzBEcrXG7YgWqaGrjJ38dzwhoeEU7fNHPu750rzVcK9w7pyYrXwortJACnhAKNMkeVbgeY6mIvYnSLtJUP2P1W7rlyYyd4NYimVG0scdiR/8Yf3BqVVXINXQ9gnAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> (73<img width="21" height="40" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAoCAAAAAA0mO45AAAAaklEQVR4nM2SwRKAIAhEdxn+/5e3Q2iS1NR4KI7PJzCrFIoyfEXJ1Q4Ca5eZsk8aKEOLVHy8qOzqxWY8+VZBWAVhQZiod5d5MwLaI8hJqoGLdKK8GoaFN+YDV7cd4rTROZ0ZHx1GzB/89Q3HLhVW2ayfNwAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림"></p>
+<p>膨 (733)</p>
+<p>膲(734)辨(734)壅 (735)</p>
+<p>癃 (734</p>
 <p>〓)</p>
 <p>凝 (734)</p>
 <p>懈 (734)</p>
 <p>避 (734)</p>
 <p>颡 (734)</p>
 <p>十七画</p>
-<p><img width="51" height="53" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA1CAAAAADJk4zrAAABSUlEQVR4nM1WQRLDIAh0Gf7/ZTpJFQFB7a1cEoGVhQIppP0s1P4Xw4sGbaaI70MOcaCe8wUX3BBdseWG3M0SbhZj3AKbRyMrBhnJHESZWWKl/K00/Y6iZZT1HinpissH5zAagWpIqeM1PE4xyV35FuxYDYgBPe+QKvUQp4lCympN4R5uhJ3xSkizfQBjD70HmMpQS0CeoPQbELgJrNVRXMtIm1xfnVYnxwRHK07B5n30q0c8PH0wcmabjVM5YX+MoGU+bBzJqadC6qrJrAU47UQj+RY1GE3WJS3ZOkFX5XMmlzt+lVg8GkepesD8QshrIDVCQeyCu31XZknx8uPWGTXww3yHcfLOX59Xq9Yje//X+QHNvCaHoeL+nFtxCm52YkuaImkF3lpzJanRWA/DxBtbpaaN77p+dpj9kFOu3n6GfE/eyT//5/sAl+1fhawq+CoAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> (734)</p>
+<p>戴 (734)</p>
 <p>藏 (734)</p>
 <p>嚏 (734)</p>
-<p><img width="53" height="50" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAyCAAAAADZiMwUAAABIElEQVR4nNVV2Q7DMAjDVf//lz2tuYCSa6smjYdloTgxZ0D5QA75WxQwUKFGAyJUa9mqz1JVFYW08FqZtuWUJtn6tCAxNpj4le+nrMlpr6dnGrqlY8j6y427YE+PYhUxtJlIW1nLMvLK5yvqjJTIF3W8KiivxgrDyGdsM5wiG4oTy2EMObLGhCFV8yhAjm5abrTYLH0Dhgw9TZ8zNFTJKo2lZlD/M+ovBIb3sB6OEp37cS60X9AfbjNBp8REHp0Tbmnc7hRo1OUPG6Hx6Dh6NcHRKBjWvLbHs28Kopck7BxXG146j4RjSFmSKIZfTrZZ9dpOoOzeBbcPe32WL4ZaXYdO+C5MrxzNjSRc8Yt94/rwlj73NljJ2N7s7aKW5JeoF+IfVXJv1EFRAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> (734)</p>
+<p>髑 (734)</p>
 <p>髀 (735)</p>
 <p>膻 (735)</p>
 <p>膺 (735)</p>
@@ -17378,7 +17381,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>躁 (735)</p>
 <p>灌 (735)</p>
 <p>譬 (735)</p>
-<p><img width="56" height="52" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA0CAAAAAD6L6S5AAABTUlEQVR4nNVWSXLDMAwjNPn/l9GpnZgCF0ntLTzFEkGCqwLa/2TY1wBfWw2YGQ88Ahln2AJ/YWjNYP7NdJ5P7Dr8fDDGWPApL29fr3wFXj9pS3GqS4cqlOSc9x6d6pvdXt0QknPMk+ed85GQMQcy1hG2krkBDJohZPXCI1SXlRcejBUymPI9VgFxVmUR41PG61JyhI77aP2hCUI8Op9enQXwqOXiqJ6V2+XRdyMNlPGKsY6LueJUGJ7uVdRMimX1LCbqTNzXzJ2jW8xudnfSvQ3iPEJhiR3EpgO1sXxQWFigNMCE2xaUk8fLclMO1qZkA7ydJxImPNITMMNieAkXgPMLYflc9lNu8jZDFFs5hk4oX2PX4ZRGKqi2/YracJwOnlIfLTfjcsIWjw7c89MSHlk7yIjOwhvx56ecO487abcc9ZzhCczTcSpf9H/1B1hPbmrPaV+kAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> (735)</p>
+<p>𪔣 (735)</p>
 <p>髓 (735)</p>
 <p>癫 (735)</p>
 <p>囊 (736)</p>
@@ -17590,7 +17593,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>人之善病消瘅者 7/46/(326)</p>
 <p>人之善病寒热者 7/46/(327)</p>
 <p>人之管以趋翔也 11/75/(487)</p>
-<p>人之<img width="48" height="54" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAA2CAAAAACkMEVGAAABIklEQVR4nOVVUY7FIAh0SO9/5dlUq6IO1ia7X8vLi4oOMEIRTN/EPp5P/xJwhTtIiV884Pl/CwkxADgEWtPECMBtIhMra96DW2ddelYUgL1w5HAs9gsALhMvjgM7uzp5LiMtHmZbm5u4pPbx3tHY3JLIOVxhKQ+3OYdCHdk9FJ03HTYTmxX1JAPItWhyNOqGGADkbTIOSQsEYIyZmYPgYYGtnKn7N8vCoWbgvQlA7HYzaQUcfXYpyoOr8tNqjfxZBIjg1pdnj5e5+QZBzWFFtO/6lMNCHTZb1l0ZLf+9a2gGDY8xpFKcg8wKFOXMAW8IC88HYuF5aFZXbB/vHjgMs1CENAJXQc3D20myVUlpmMKWspOb7raoh/ezKPYAIX//iv4AmzxHgFnrN5UAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">者 5/28/(248)</p>
+<p>人之噫者 5/28/(248)</p>
 <p>人之亸者 5/28/(249)</p>
 <p>人之嚏者 5/28/(249)</p>
 <p>人不病卒死 8/49/(355)</p>
@@ -18337,7 +18340,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>上行注足阳明 4/16/(168)</p>
 <p>上行注肾 4/16/(168)</p>
 <p>上行注膻中 4/16/(168)</p>
-<p>上行乘腋出<img width="53" height="53" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAA1CAAAAADEjfysAAABFklEQVR4nM1W7RKDIAxrvL3/K2e3TqSFUtDtPPtDPiQmhvIByoXY5Omol29CnzyFwhWF+Om/KGsKPywULpMpSkejUGiJiPLoNG7ADENtV1u1U2vOQxaJ39IKRu+G14IbcoPNKxZvKzvjjNrDzIFzNlFImcYWAjCxJ1YYQ+rMT1Hip5CJ85yAl7hYx0vLhRTk6l4h9gcCkBaBGxiQ4koeQtZQNGJCQ3324hiWp1Xl4ujbqwpltjSHbmANhR42RCbOw4L495OIo1bja8LFIG17FObKkj0K869EOR+Ge7m4b+C2OwDtch7u8zg6tEa3hXsuRngf8FzdcYJ8LdtjtY8isL2/ZM7DDjznIZtyCcWglitMzojH30XfP41Ihh+UF78AAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">内 4/16/(168)</p>
+<p>上行乘腋出䪼内 4/16/(168)</p>
 <p>上行臑阴 10/71/(456)</p>
 <p>上合于天 6/38/(289)</p>
 <p>上合于太阳 4/13/(151)</p>
@@ -18622,7 +18625,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>广四分半 4/14/(163)</p>
 <p>广肠大八寸 6/32/(265)</p>
 <p>广肠傅脊 6/31/(263)</p>
-<p>广<img width="38" height="50" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAyCAAAAAAVEfb/AAAAyElEQVR4nM1V7RKDIAxrer7/K2c3ZLQgrU652/KDD4mhtEFBuQKVH9C2NoIIrbOn7NRgHTxrn5maW0dp6V7oaD2cqG3KtSd9g+iEbTaoUeYYE/JPNdU7CUE0mRcLS2LjaXpzbOEKfYipGluVE1uKc0KnxpD/+AjibRnT8OkZXcDFsXEUz2rKgMap6BexaSK25sogpuWXXnTC4nGk6QkQxIa0WBi9j3lsZ9BLYkEVvAWOH9V9sbSNWD1VN4uyUZ8Xpwew3xcymsMLj9wudO3rTI8AAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> 9/64/(419)</p>
+<p>广肠 9/64/(419)</p>
 <p>广肩腋项 6/38/(290)</p>
 <p>广狭 3/12/(142)</p>
 <p>广胸反骹者肝高 7/47/(337)</p>
@@ -19993,7 +19996,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>手太阴气绝则皮毛焦 3/10/(123)</p>
 <p>手太阴外合于河水 3/12/(144)</p>
 <p>手太阴阳明皆主之 2/9/(96)</p>
-<p>手太阴经也 1/2/(<img width="51" height="44" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAsCAAAAADtSt+4AAAA6UlEQVR4nM1WSxLFIAgjDPe/ct5MX2tBEXXXbKpgAPk4BeUYKt/l2O5BiDxXh88B/p8sLXAK3fby2rTooqQ80HOK7OaNPObQZ8aarAowZtm8ZkZitKdyDnuXqGovmR+klF6MRWyYGVM5hz6LYl6dI0Y/LKfcaxFOhmFo5lneh5WrCecG6k6yuM3apzXbs1HZBQ7eEHYMzylHFXm/SWo/myydh9Mva84CNgstCBheRd2hNJ73gxVhjA31mUt/l4nrmrKZdHbt0mSOQpuNsQkHzWQqujndr6oNkuEc0fEQw94a1Pge7OHL/wc/hOQ0dEVry5gAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">)</p>
+<p>手太阴经也 1/2/(14)</p>
 <p>手太阴独受阴之清 6/40/(300)</p>
 <p>手太阴敦敦然 9/64/(421)</p>
 <p>手少阳之下 9/64/(426)</p>
@@ -20732,7 +20735,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>以候五脏 6/37/(287)</p>
 <p>以候五脏 10/71/(461)</p>
 <p>以候虚实而刺之 11/76/(505)</p>
-<p>以候<img width="53" height="39" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAnCAAAAACKk188AAABFElEQVR4nM1UURaEIAh0et7/yrMvMx0Iyt1+1j40ZGCYILD8sLby76h6NWEvFaUUXzKGqbkYE/bDDrI4YzlRzUjwuBywyzIo68SLxcEyNVCW1WA5KRo+GuewaC562dK+2VZZQeMYhpjadaZJoHrnhBWGrzqqJIpgEcXsokYVgA/1VW8msj7zaoxbtqdZ+EVHMfKRsegkJoquiMuQSYvO7wXdJGeQHvKVoZmCNe+pdUGOwT9D37pkhvq+Mckrs0xaDU2oYClDmuNQcOqDxankkD2fFAjwEOvlfMGwNH8bzuAuqaPvczFk2g54YoixH8z64CQaQmRurmc5TpZEQw7JlfngsaDh2TdZrtv51UvbUWHLBv34AdbFWWIhjjRZAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"><img width="54" height="38" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAAmCAAAAACq+DeaAAAA+0lEQVR4nNVVSxbEIAgTn/e/cubVagUi2robNuNgwk+ggnQiOf0VTaQfUj95kYHpJekK1MOkUA9A07wDsEpdLXKT8IZpaM53r1nIf/+tSd6xYkMTjVg5zl8yYtrH1iykAXs0CnhazR8Vt3g2E+QwKraN5hJ1iRXKvJyQEjcXNAhRkTUNwIWpLRK5MUFay7AQmwFGSe4LjZahpiyeewNANxLUqRJ43sTHZoqkg1RxysS0iQbcylcZg+q1Kr9beHBG5xPQI6bQaAf66daymMH8cpy3K0g8ZLxlQHs2NIXn7R1+Oor9Ky9pWSM3m8DQjoRKop3bWVp62+zZdv0DZshRR2Q2dnQAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림"> 6/29/(258)</p>
+<p>以候𩩲𩨗 6/29/(258)</p>
 <p>以息往来 9/62/(408)</p>
 <p>以涂其缓者 4/13/(151)</p>
 <p>以调阴阳 9/64/(427)</p>
@@ -20769,7 +20772,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>予之短期 2/5/(60)</p>
 <p>予之短期者 2/5/(60)</p>
 <p>【孔】</p>
-<p>孔窍于<img width="49" height="40" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAoCAAAAAByLk2TAAAA5ElEQVR4nM1U0Q7EIAizxv//5V5Ojw0QnSR7OLKZqdS2UwFLMmr5R0QLR1EKUxz4vsirQhrhAtj5mAK9oUZ0r1aH8q4nBi6WzGmCD6riddpitTUdLrUKYh3x5VPCsd9TGm6mi6NnhYcJ44F0f0l74yJAcZwA8s6ZRdByJOpDdSucI3bBEIF1Dm23RgAfZrY9y8BLFY69oaVgyNlCITI4BFE+ZlWScIVeB/B3UAOWlaKYf3XfkO2/rpZUy/DWWDTH5EB3YaaaUrE4jU6j2fNQvx+UKnpS40YM57Lbi6SAIxTidkq6H43tO10tzGiAAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림"> 10/66/(438)</p>
+<p>孔窍于壅 10/66/(438)</p>
 <p>【毋】</p>
 <p>毋过三行 10/68/(446)</p>
 <p>毋吹其火 8/51/(366)</p>
@@ -25842,7 +25845,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>刺实者 11/76/(505)</p>
 <p>刺项大经之大杼脉 5/22/(203)</p>
 <p>刺虽久 1/1/(12)</p>
-<p>刺婴儿奈何 6/38/(29<img width="42" height="62" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA+CAAAAAB479YKAAAA1ElEQVR4nO2VbQ+DIAyE2wv//y93UXkpeECzZMkW1w+kng/tCYpqEg2ESfmjeOhiqdbMyN1jsJbnNE3IY8yIBQzoydW2uBPNkusupVsnObGTlahO8yzIrG5R2jxImAVTuQN4tTD8g4eEWdACrL+kLVh3GLuqWt8uSDjwDmq7MzF1psawrBoxwCvnFbAVqV5Ju5qhLbDBP9jT8DborY3JFBVdGcfkDCCPiOG61J0dOiz2VReBX/px6ieqpnM8luH6iHWDWru+UjpB3alsYa/29VsgT0dfA6YvfAiU9VIAAAAASUVORK5CYII=" alt="원서 글자" title="원서 글자 그림">)</p>
+<p>刺婴儿奈何 6/38/(292)</p>
 <p class="pgm"><span class="page-marker">p.691</span></p>
 <p>刺骨痹 2/7/(75)</p>
 <p>刺络而虚经 6/39/(296)</p>
@@ -29339,8 +29342,8 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>猪咸 8 /56/(382)</p>
 <p>【猛】</p>
 <p>猛疽不治 12/81/(547)</p>
-<p>【<img width="49" height="45" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAtCAAAAAAi49wgAAAA+UlEQVR4nM1VUbLDIAhkHe9/5X3TGhUQjaZ9M+UnCmx2IWJAObQkv4jIbQUR4TEHXrAbQ31tzXV7bteBTVXi38lV5YEmrjgwT3FCs/ZxVQOuLqUxaQaQEjEcPhffPFc4QOS+pIOy7Eo7EKgKOsvupkWEovgP8yH9w9dRwQ0CVc21KA9VfTSDPdRwJcaPvyBPENnsCpRV4FBDV0Uav94M/MlE8GDOtWG7DpMO22fxN8MGU1pGI8uhl/A9wts9cuxYngXsNKrj1Ti2Rz3JY1UcSCYzlbzD/nTseYsqx9M6sEA0jpbUdKiDrC+tC9Gj4Txqzpu/2krVZr7IH5/XN4G9YkpxAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">】</p>
-<p><img width="49" height="45" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAAtCAAAAAAi49wgAAAA8UlEQVR4nM1VSxbEIAgjedz/ysxi1JEKqF0Ni36UEAyUwuTSKP+I0GwDImIlAt4BR1kBBwChcykcj05uFwjkAHFaFfXH2OUxQLBwWB6862JrBfEIgFVBDb3TFSm6JC0Oc8Qvv35Cmzha3z2P0e82FYiJVJaKzUHR4tuuNNoBxRfhRWDoYYVqWoWL3sVznIwiRgmVQF1WcnfYxDHKGprb5d7/cXrKrbFKZnnYcliE0TzvshO91aORcmuarLemx0rG1xwY11038pqD7T4pPwtkew57oRWma4T3Jy8/cJ/Vye8szGqZct9g0SyZx+QDOere7AP0pDt2xl+JxQAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림">不得息 11/75/(485)</p>
+<p>【𬳀】</p>
+<p>𬳀不得息 11/75/(485)</p>
 <p>【减】</p>
 <p>减则病也 7 /47/(338)</p>
 <p>【毫】</p>
@@ -30384,7 +30387,7 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>数其至也 2/5/(60)</p>
 <p>数刺乃知 10/67/(444)</p>
 <p>数所在 11/77/(509)</p>
-<p>数脉并注 10/71/(45<img width="28" height="45" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAtCAAAAACYQFRAAAAAf0lEQVR4nM1UQQ6AMAijxP9/uQY352RC1GTGZieaQiEwUGKoTCGXiIAIMyVOJIKawPaclF6zNw4zhKAih0QGXhtySFuZNduHJP9mqANEYr+aCVQS6Hckp6Rlsn1s3KjsL11LhKzRg4PdCloEvcwGXA/Jo8x+wp9gToKaN9K+J1fwkRhXLFnmzQAAAABJRU5ErkJggg==" alt="원서 글자" title="원서 글자 그림">)</p>
+<p>数脉并注 10/71/(456)</p>
 <p>数怒者易解 10/67/(443)</p>
 <p>数唾 1/4/(52)</p>
 <p>【满】</p>
@@ -30579,8 +30582,8 @@ body.dark main img.glyph { filter:invert(.88); }
 <p>膈洞者取之太阴 2/5/(58)</p>
 <p>膈腧在七焦之间 8/51/(366)</p>
 <p>膈塞不通 4/19/(186)</p>
-<p>【<img width="52" height="47" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAvCAAAAACJArZvAAAA+UlEQVR4nM1VWw6EIBCjxvtfuZu4PhhtZyDrx5IYZaS0zAuwzY+l/TVofZrQGtV3wgRE/PYYJigZXyNomBCMfMERmAHBoYT3xMChGdtrHdaEWh5aMgITz8UWs4lcp2naOwmLp54q9yAwKj+8PKpk4q9ngttTO7JMI8QZrTzueZbL2wdzT0oQy+oToFbXrAThuYK59xBXImB6bBJcWioFYiXZBxcR0vdaKw+JKQaXljegYnDHqr0qDUoBOYg7+w1VFSFG5bEC5kUIbZ7qEeyZIFSxY7n/H7tqWtxxsWeg3yF2WDuJttFL7cj5s4Ule+qYXfLO31epuwb1AZtYNn0g2SEnAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">】</p>
-<p><img width="58" height="42" class="glyph" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAAqCAAAAADHBhdvAAABHUlEQVR4nNVUW44EIQgEM/e/cm1iowIC2vMxyfLRD6QoXsKgb6XRP4N+1icTPYmzvJeecGRlefCm4wo6TAZ8OIA6LliNiXghG+ziV7kGPhguZVZKdahDQhThEpTNqZBhmS6FZ66ukV4gtpjudcCTEsZJ7BGPukOhbMSJ0ARx0tA+rHGZvbC1rcZfkSI4jqEwPBwHk7F28ABwmEYG7ROXnJXQQ6Pd+AvFans4E1rSmzMWhkKgDNjHuW2a+7U2a0z9yUXA+m473Fa/ybqXlH+xwhFzyw3DeEdQ2Z8uTDGF/Q0DzhPkPODX0o4WnC0aV6absb8cxOrCNq+4B7fN5vCf9fXVNLb8yMru9W1fVc4TmrbP0Oq9OqDxRvL/5jb/ARi4QnEUto9PAAAAAElFTkSuQmCC" alt="원서 글자" title="원서 글자 그림">皮充肌 7/46/(326)</p>
+<p>【腠】</p>
+<p>腠皮充肌 7/46/(326)</p>
 <p>【膀】</p>
 <p>膀胱之胞薄以懦 9/63/(413)</p>
 <p>膀胱子处也 8/49/(356)</p>

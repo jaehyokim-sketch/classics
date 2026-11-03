@@ -1,8 +1,10 @@
 # OS files
-Thumbs.db
-Desktop.ini
+[Tt]humbs.db
+[Dd]esktop.ini
 .DS_Store
 
 # Temporary files
 *.tmp
 *.bak
+*.swp
+*~
