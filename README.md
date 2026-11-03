@@ -5,6 +5,11 @@
 
 [![GitHub Pages](https://img.shields.io/badge/Web%20Library-GitHub%20Pages-blue?style=flat-square&logo=github)](https://jaehyokim-sketch.github.io/classics/)
 
+> [!WARNING]
+> **⚠️ 주의사항**  
+> 본 저장소의 자료는 개인 교육 학습용으로 만들었으며, 현재 수준의 AI 모델을 이용하여 작업한 결과물이기에 오류 가능성이 있습니다. 가능한 출판 서적을 구매하여 함께 대조하며 활용하기를 권합니다.  
+> 또한 지적재산침해가 있는 만큼 개발자에게 문의 및 상의 없이 공개하는 것은 금합니다.
+
 ---
 
 ## 🏛️ 디지털 도서관 포털 홈 (통합 메인)
