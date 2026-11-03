@@ -501,7 +501,7 @@
         <input type="text" id="search-input" class="search-input" placeholder="서명, 저자, 편저자, 키워드로 검색..." oninput="handleSearch()">
       </div>
       <div class="filter-tags">
-        <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">전체 서고 (14)</button>
+        <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">전체 서고 (15)</button>
         <button class="filter-btn" data-filter="korean" onclick="setFilter('korean')">한국어 완역본</button>
         <button class="filter-btn" data-filter="original" onclick="setFilter('original')">원문 정본</button>
         <button class="filter-btn" data-filter="huang" onclick="setFilter('huang')">황룡상 교수 저작</button>
@@ -514,7 +514,40 @@
   <main>
     <div class="grid" id="books-grid">
 
-      <!-- 1. 황제내경영추 교주어역 -->
+      <!-- 1. 황제내경소문 교주어역 -->
+      <article class="book-card theme-red" data-category="korean classics" data-keywords="황제내경 소문 교주어역 곽애춘 한의학 원전 완역 음양오행 장부 병기 진단 침구">
+        <div class="card-banner"></div>
+        <div class="card-body">
+          <div class="card-meta-top">
+            <span class="card-type-badge">한국어 완역본</span>
+            <span class="card-year">춘추전국 ~ 현대 교주</span>
+          </div>
+          <h2 class="book-title"><a href="./suwen.html">황제내경소문 교주어역</a></h2>
+          <div class="book-hanja">黃帝內經素問 校注語譯</div>
+          <div class="book-author">✍️ 곽애춘(郭靄春, 1912~2001) 편저 · 천진과학기술출판사</div>
+          <p class="book-desc">
+            한의학 기초 이론의 최고 원전인 『소문(素問)』 81편 전체에 대한 정밀한 교감(校勘), 주석(注釋), 어역(語譯)을 집대성한 한국어 완역본. 마우스 호버 역주 팝업, 81편 전체 계층 목차, 원서 희귀 글자 및 도판 완비.
+          </p>
+          <div class="card-tags">
+            <span class="tag-pill">#소문81편완역</span>
+            <span class="tag-pill">#교주어역</span>
+            <span class="tag-pill">#한의학기초원전</span>
+            <span class="tag-pill">#곽애춘</span>
+          </div>
+          <div class="card-actions">
+            <a href="./suwen.html" class="btn-read">
+              <span>📖</span>
+              <span>전자책 바로 읽기</span>
+            </a>
+            <div class="alt-links">
+              <a href="./suwen/">/suwen/ 경로</a>
+              <a href="./황제내경소문_번역_통합 - 2026년 11월 3일.html">정본 원본 파일</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 2. 황제내경영추 교주어역 -->
       <article class="book-card theme-red" data-category="korean classics" data-keywords="황제내경 영추 교주어역 곽애춘 침구 고전 한의학 원전 완역">
         <div class="card-banner"></div>
         <div class="card-body">
@@ -541,13 +574,13 @@
             </a>
             <div class="alt-links">
               <a href="./lingshu/">/lingshu/ 경로</a>
-              <a href="./황제내경영추_번역_통합 - 2026년 11월 2일.html">정본 원본 파일</a>
+              <a href="./황제내경영추_번역_통합 - 2026년 11월 3일.html">정본 원본 파일</a>
             </div>
           </div>
         </div>
       </article>
 
-      <!-- 2. 신고전침구학대강 -->
+      <!-- 3. 신고전침구학대강 -->
       <article class="book-card theme-teal" data-category="korean huang" data-keywords="신고전침구학대강 황룡상 신천침구 침구이론 환원 임상표준 한국어 완역 2022">
         <div class="card-banner"></div>
         <div class="card-body">
@@ -580,7 +613,7 @@
         </div>
       </article>
 
-      <!-- 3. 중국침구경락통감 -->
+      <!-- 4. 중국침구경락통감 -->
       <article class="book-card theme-indigo" data-category="original huang classics" data-keywords="중국침구경락통감 경락통감 황룡상 한간 백서 206개도판 선진 청대 원문정본 2003">
         <div class="card-banner"></div>
         <div class="card-body">
@@ -614,7 +647,7 @@
       </article>
 
       
-      <!-- 4. 중국고전침구학대강 -->
+      <!-- 5. 중국고전침구학대강 -->
       <article class="book-card" data-category="korean huang" data-keywords="중국고전침구학대강 황룡상 침구이론 기원 대강 한국어 완역 2019" style="--primary: #d97706; --primary-hover: #b45309;">
         <div class="card-banner" style="background: linear-gradient(90deg, #f59e0b, #d97706);"></div>
         <div class="card-body">
@@ -648,7 +681,7 @@
       </article>
 
       
-      <!-- 5. 중국침구사도감 상권 -->
+      <!-- 6. 중국침구사도감 상권 -->
       <article class="book-card" data-category="korean huang" data-keywords="중국침구사도감 상권 황룡상 유물 유적 도판 사료 한국어 완역 2003" style="--primary: #059669; --primary-hover: #047857;">
         <div class="card-banner" style="background: linear-gradient(90deg, #10b981, #059669);"></div>
         <div class="card-body">
@@ -681,7 +714,7 @@
         </div>
       </article>
 
-      <!-- 6. 중국침구사도감 하권 -->
+      <!-- 7. 중국침구사도감 하권 -->
       <article class="book-card" data-category="korean huang" data-keywords="중국침구사도감 하권 황룡상 금대의학 명청대 침구동인 침구학술사 한국어 완역 2003" style="--primary: #0d9488; --primary-hover: #0f766e;">
         <div class="card-banner" style="background: linear-gradient(90deg, #14b8a6, #0d9488);"></div>
         <div class="card-body">
@@ -715,7 +748,7 @@
       </article>
 
       
-      <!-- 7. 중국침구증치통감 -->
+      <!-- 8. 중국침구증치통감 -->
       <article class="book-card" data-category="korean huang" data-keywords="중국침구증치통감 증치통감 황룡상 임상처방 주치 증치 병증별 한국어 완역" style="--primary: #9333ea; --primary-hover: #7e22ce;">
         <div class="card-banner" style="background: linear-gradient(90deg, #a855f7, #9333ea);"></div>
         <div class="card-body">
@@ -749,7 +782,7 @@
       </article>
 
       
-      <!-- 8. 중국침구혈위통감 -->
+      <!-- 9. 중국침구혈위통감 -->
       <article class="book-card" data-category="original classics" data-keywords="중국침구혈위통감 혈위통감 왕덕심 수혈 혈위도 명칭고증 자침법 원문정본 2004 2판" style="--primary: #be123c; --primary-hover: #9f1239;">
         <div class="card-banner" style="background: linear-gradient(90deg, #f43f5e, #be123c);"></div>
         <div class="card-body">
@@ -784,7 +817,7 @@
       </article>
 
       
-      <!-- 9. 중의백병명원고 -->
+      <!-- 10. 중의백병명원고 -->
       <article class="book-card" data-category="korean classics" data-keywords="중의백병명원고 백병명원고 장강 병명고증 어원 갑골문 금문 설문해자 한국어 완역" style="--primary: #0284c7; --primary-hover: #0369a1;">
         <div class="card-banner" style="background: linear-gradient(90deg, #38bdf8, #0284c7);"></div>
         <div class="card-body">
@@ -818,7 +851,7 @@
         </div>
       </article>
 
-      <!-- 10. 침구수혈통고 -->
+      <!-- 11. 침구수혈통고 -->
       <article class="book-card" data-category="original huang classics" data-keywords="침구수혈통고 수혈통고 황룡상 경혈고증 십사경혈 경외기혈 자침법 취혈법 혈위변천 원문정본 2011" style="--primary: #4f46e5; --primary-hover: #4338ca;">
         <div class="card-banner" style="background: linear-gradient(90deg, #6366f1, #4f46e5);"></div>
         <div class="card-body">
@@ -852,7 +885,7 @@
         </div>
       </article>
 
-      <!-- 11. 침구임상변증논치 -->
+      <!-- 12. 침구임상변증논치 -->
       <article class="book-card" data-category="korean classics" data-keywords="침구임상변증논치 침구임상변증론치 이세진 이전기 이완량 변증논치 염전보사법 신응경 자침보사 임상처방 한국어 완역 2017" style="--primary: #c2410c; --primary-hover: #9a3412;">
         <div class="card-banner" style="background: linear-gradient(90deg, #f97316, #c2410c);"></div>
         <div class="card-body">
@@ -886,7 +919,7 @@
         </div>
       </article>
 
-      <!-- 12. 황용상간침구 -->
+      <!-- 13. 황용상간침구 -->
       <article class="book-card" data-category="korean huang classics" data-keywords="황용상간침구 황룡상간침구 황룡상 도설중의 그림으로보는침구학 인체교향악 수혈기원 경락발견 침구동인 한국어 완역 2008" style="--primary: #0891b2; --primary-hover: #0e7490;">
         <div class="card-banner" style="background: linear-gradient(90deg, #06b6d4, #0891b2);"></div>
         <div class="card-body">
@@ -920,7 +953,7 @@
         </div>
       </article>
 
-      <!-- 13. 경맥 이론 환원과 재구성 대강 -->
+      <!-- 14. 경맥 이론 환원과 재구성 대강 -->
       <article class="book-card" data-category="korean huang classics" data-keywords="경맥이론환원과재구성대강 경맥이론 환원 재구성 대강 황룡상 마왕퇴백서 장가산한간 침구학술사 한국어 완역 2016" style="--primary: #15803d; --primary-hover: #166534;">
         <div class="card-banner" style="background: linear-gradient(90deg, #22c55e, #15803d);"></div>
         <div class="card-body">
@@ -954,7 +987,7 @@
         </div>
       </article>
 
-      <!-- 14. 중국침구학술사대강 -->
+      <!-- 15. 중국침구학술사대강 -->
       <article class="book-card" data-category="original huang classics" data-keywords="중국침구학술사대강 침구학술사대강 황룡상 학술사 전5부 인론 경락 수혈 자구법 치료 84만자 원문정본 2001" style="--primary: #991b1b; --primary-hover: #7f1d1d;">
         <div class="card-banner" style="background: linear-gradient(90deg, #dc2626, #991b1b);"></div>
         <div class="card-body">
