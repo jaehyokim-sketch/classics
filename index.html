@@ -1,7 +1,8 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" data-page="portal">
 <head>
   <meta charset="utf-8">
+  <script src="auth.js" data-portal="true"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>한의학·침구학 고전 디지털 도서관 (Classics Digital Library)</title>
   <meta name="description" content="한의학 및 침구학 핵심 고전 및 학술 저작의 한국어 완역본과 원문 웹 전자책 디지털 도서관">
@@ -498,9 +499,279 @@
       main { padding: 0 1rem 3rem; }
       .grid { grid-template-columns: 1fr; }
     }
+
+    /* Auth Lock & Gate Styles */
+    html.auth-locked, html.auth-locked body {
+      overflow: hidden !important;
+    }
+    html.auth-locked .app-content {
+      opacity: 0.05 !important;
+      filter: blur(20px) !important;
+      pointer-events: none !important;
+      user-select: none !important;
+    }
+    html:not(.auth-locked) #auth-overlay {
+      display: none !important;
+    }
+
+    .auth-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 100000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+      background: rgba(15, 23, 42, 0.78);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      transition: opacity 0.35s ease, visibility 0.35s ease;
+    }
+    [data-theme="dark"] .auth-overlay {
+      background: rgba(3, 7, 18, 0.88);
+    }
+    .auth-overlay.unlocked {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .auth-card {
+      width: 100%;
+      max-width: 440px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 1.25rem;
+      padding: 2.25rem 2rem;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      text-align: center;
+      position: relative;
+      animation: authCardIn 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    [data-theme="dark"] .auth-card {
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+    @keyframes authCardIn {
+      from { opacity: 0; transform: scale(0.95) translateY(10px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+    .auth-card.shake {
+      animation: authShake 0.45s ease-in-out;
+    }
+    @keyframes authShake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-8px); }
+      40%, 80% { transform: translateX(8px); }
+    }
+    .auth-icon-wrap {
+      width: 62px;
+      height: 62px;
+      margin: 0 auto 1.15rem;
+      background: rgba(2, 132, 199, 0.1);
+      border: 1px solid rgba(2, 132, 199, 0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.85rem;
+    }
+    [data-theme="dark"] .auth-icon-wrap {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: rgba(56, 189, 248, 0.3);
+    }
+    .auth-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: var(--primary);
+      background: var(--badge-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 9999px;
+      margin-bottom: 0.75rem;
+    }
+    .auth-title {
+      font-family: var(--font-serif);
+      font-size: 1.55rem;
+      font-weight: 800;
+      color: var(--text-main);
+      margin-bottom: 0.65rem;
+      letter-spacing: -0.02em;
+    }
+    .auth-desc {
+      font-size: 0.88rem;
+      line-height: 1.55;
+      color: var(--text-muted);
+      margin-bottom: 1.75rem;
+      word-break: keep-all;
+    }
+    .auth-input-group {
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.85rem;
+    }
+    .auth-input {
+      width: 100%;
+      padding: 0.85rem 3rem 0.85rem 1.15rem;
+      font-size: 0.95rem;
+      border-radius: 0.75rem;
+      border: 1.5px solid var(--card-border);
+      background: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      outline: none;
+      transition: all 0.2s ease;
+    }
+    .auth-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.18);
+    }
+    [data-theme="dark"] .auth-input:focus {
+      box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.25);
+    }
+    .auth-pw-toggle {
+      position: absolute;
+      right: 0.85rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.15rem;
+      padding: 0.25rem;
+      opacity: 0.6;
+      transition: opacity 0.2s;
+      user-select: none;
+    }
+    .auth-pw-toggle:hover { opacity: 1; }
+    .auth-options {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 1.25rem;
+      padding-left: 0.25rem;
+    }
+    .auth-remember {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      cursor: pointer;
+      user-select: none;
+    }
+    .auth-remember input[type="checkbox"] {
+      accent-color: var(--primary);
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+    }
+    .auth-btn {
+      width: 100%;
+      padding: 0.88rem 1.25rem;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: #ffffff;
+      border: none;
+      border-radius: 0.75rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      font-family: var(--font-sans);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
+    }
+    .auth-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(2, 132, 199, 0.35);
+    }
+    .auth-btn:active { transform: translateY(0); }
+    .auth-btn.loading { opacity: 0.7; pointer-events: none; }
+    .auth-error {
+      margin-top: 1rem;
+      padding: 0.65rem 0.9rem;
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.25);
+      border-radius: 0.5rem;
+      color: #ef4444;
+      font-size: 0.82rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      line-height: 1.4;
+      word-break: keep-all;
+    }
+    [data-theme="dark"] .auth-error {
+      background: rgba(239, 68, 68, 0.15);
+      border-color: rgba(239, 68, 68, 0.3);
+      color: #fca5a5;
+    }
+    .auth-footer {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--card-border);
+      font-size: 0.78rem;
+      color: var(--text-light);
+    }
   </style>
 </head>
 <body>
+  <!-- Authentication Gate Overlay -->
+  <div id="auth-overlay" class="auth-overlay">
+    <div class="auth-card">
+      <div class="auth-icon-wrap">
+        <span class="auth-icon">🔐</span>
+      </div>
+      <div class="auth-badge">보안 접속 인증</div>
+      <h2 class="auth-title">고전 디지털 도서관</h2>
+      <p class="auth-desc">
+        본 도서관의 자료는 개인 교육 및 학술 연구용 서고로 운영되며, 무단 열람과 상업적 이용을 방지하기 위해 비밀번호 인증 후 이용 가능합니다.
+      </p>
+      
+      <form id="auth-form">
+        <div class="auth-input-group">
+          <input 
+            type="password" 
+            id="auth-password" 
+            class="auth-input" 
+            placeholder="열람 비밀번호를 입력하세요" 
+            autocomplete="current-password"
+            required
+            autofocus
+          >
+          <button type="button" class="auth-pw-toggle" onclick="togglePasswordVisibility()" title="비밀번호 보기/숨기기">
+            👁️
+          </button>
+        </div>
+        
+        <div class="auth-options">
+          <label class="auth-remember">
+            <input type="checkbox" id="auth-remember" checked>
+            <span>이 기기에서 인증 유지 (30일)</span>
+          </label>
+        </div>
+
+        <button type="submit" id="auth-submit-btn" class="auth-btn">
+          <span>인증 및 도서관 입장</span>
+          <span class="auth-btn-arrow">→</span>
+        </button>
+
+        <div id="auth-error" class="auth-error" style="display: none;">
+          <span>⚠️</span>
+          <span id="auth-error-msg">비밀번호가 일치하지 않습니다. 다시 확인해 주세요.</span>
+        </div>
+      </form>
+
+      <div class="auth-footer">
+        <span>접근 권한 문의: 연구실 및 관리자</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="app-content">
 
   <!-- Top Navigation -->
   <header>
@@ -513,6 +784,7 @@
         </div>
       </a>
       <div class="header-actions">
+        <button id="auth-lock-btn" class="btn-icon" title="보안 잠금 (로그아웃)" onclick="lockLibrary()">🔒</button>
         <button id="theme-toggle" class="btn-icon" title="다크 모드 / 라이트 모드 전환" onclick="toggleTheme()">🌙</button>
       </div>
     </div>
@@ -536,8 +808,7 @@
         <span>주의사항</span>
       </div>
       <div class="notice-text">
-        <p>개인 교육 학습용으로 만들었으며, 현재 수준의 AI 모델을 이용하여 작업한 결과물이기에 오류 가능성이 있습니다. 가능한 출판 서적을 구매하여 함께 대조하며 활용하기를 권합니다.</p>
-        <p>또한 지적재산침해가 있는 만큼 개발자에게 문의 및 상의 없이 공개하는 것은 금합니다.</p>
+        <p>개인 교육 학습용으로 제작되었으며, 현재 수준의 AI 모델을 이용한 작업한 결과이기에 오류 가능성이 있습니다. 가능한 출판 서적을 구매하여 함께 대조하며 활용하기를 권하며, 상업적 이용이나 개발자의 허락 없는 퍼가기 금합니다.</p>
       </div>
     </div>
 
@@ -1031,6 +1302,7 @@
       <p>© 2026 한의학·침구학 고전 디지털 도서관 (Classics Digital Library)</p>
     </div>
   </footer>
+  </div><!-- /.app-content -->
 
   <script>
     // Theme Management
