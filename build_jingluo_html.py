@@ -5,6 +5,8 @@
 import os
 import re
 import html
+import base64
+import mimetypes
 import markdown
 from bs4 import BeautifulSoup
 
@@ -88,6 +90,38 @@ def main():
                 'title': text,
                 'level': tag_level
             })
+
+    # 본문 내부 목차 링크 보정: 마크다운 toc 슬러그(소문자·축약형)와
+    # 위에서 부여한 heading id(대소문자 보존·전체형)가 어긋나는 경우를 맞춘다.
+    lower_map = {i.lower(): i for i in seen_ids}
+    for a in soup.find_all('a', href=True):
+        href = a['href']
+        if not href.startswith('#') or href[1:] in seen_ids:
+            continue
+        frag = href[1:].lower()
+        target = lower_map.get(frag)
+        if not target:
+            cands = [i for i in seen_ids if i.lower().startswith(frag + '-')]
+            target = cands[0] if len(cands) == 1 else None
+        if target:
+            a['href'] = '#' + target
+        else:
+            print(f"  [WARN] 내부 링크 대상 없음: {href}")
+
+    # 이미지 인라인(base64): 루트·하위 폴더 사본 모두 경로 문제 없이 표시되도록
+    # 다른 classics 페이지와 같은 방식으로 data URI로 넣는다.
+    img_base = os.path.dirname(TEMPLATE_HTML)
+    for img in soup.find_all('img', src=True):
+        src = img['src']
+        if src.startswith(('data:', 'http://', 'https://')):
+            continue
+        img_path = os.path.join(img_base, *src.split('/'))
+        if not os.path.isfile(img_path):
+            print(f"  [WARN] 이미지 없음: {src}")
+            continue
+        mime = mimetypes.guess_type(img_path)[0] or 'image/png'
+        with open(img_path, 'rb') as imf:
+            img['src'] = f"data:{mime};base64," + base64.b64encode(imf.read()).decode('ascii')
 
     # Wrap tables in .table-wrap
     for table in soup.find_all('table'):
