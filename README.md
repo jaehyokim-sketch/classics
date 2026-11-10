@@ -74,7 +74,7 @@
 * **원출판:** 청도출판사(靑島出版社), 제2판 개정수정판
 * **설명:** 선진(先秦)부터 청대(淸代)까지 2천 년 침구 임상 처방과 경혈 주치·증치(證治) 전적을 내·외·부·아과 등 병증별로 총망라하여 집대성한 임상 침구학 최고 정본 통감 한국어 완역본.
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/zhengzhi-tongjian.html)**
-* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/zhengzhi-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%A6%9D%EC%B9%98%ED%86%B5%EA%B0%90/%E4%B8%AD%E5%9B%BD%E9%92%88%E7%81%B8%E8%AF%81%E6%B2%BB%E9%80%9A%E9%89%B4_2%ED%8C%90_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2010%EC%9B%94%2021%EC%9D%BC.html))*
+* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/zhengzhi-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%A6%9D%EC%B9%98%ED%86%B5%EA%B0%90/%E4%B8%AD%E5%9B%BD%E9%92%88%E7%81%B8%E8%AF%81%E6%B2%BB%E9%80%9A%E9%89%B4_2%ED%8C%90_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
 
 ### 9. 중국침구사도감 상권 (中國鍼灸史圖鑑 上卷)
 * **주편:** 황룡상(黃龍祥, 중국중의과학원 수석연구원) 주편
