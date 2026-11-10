@@ -132,6 +132,13 @@
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/cijiu-tongjian.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/cijiu-tongjian/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%A4%91%EA%B5%AD%EC%B9%A8%EA%B5%AC%EC%9E%90%EA%B5%AC%EB%B2%95%ED%86%B5%EA%B0%90/%ED%99%A9%EC%9A%A9%EC%83%81%EC%9E%90%EA%B5%AC%EB%B2%95%ED%86%B5%EA%B0%90_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%208%EC%9D%BC.html))*
 
+### 17. 금침매화시초 (金針梅花詩鈔 / 金针梅花诗钞)
+* **저자:** 청(淸)·주수동(周樹冬) 유고 · 주미성(周楣聲) 중정
+* **원출판:** 안휘과학기술출판사(1982년) / 도서출판 의성당(醫聖堂)
+* **설명:** 청말 명의 주수동의 유고를 손자 주미성이 발굴·교정하여 역대 침구 문헌의 정수와 주씨 가문 4대의 임상 경험, 매화파(梅花派) 독문 침방 및 진출침 요령 자침 21절·십사경 요혈시를 유려한 시가(詩歌)로 집대성한 침술 명저 한국어 완역본.
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/jinzhen-meihua.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/jinzhen-meihua/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EA%B8%88%EC%B9%A8%EB%A7%A4%ED%99%94%EC%8B%9C%EC%B4%88/%EA%B8%88%EC%B9%A8%EB%A7%A4%ED%99%94%EC%8B%9C%EC%B4%88_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
+
 ---
 
 ## ✨ 웹 전자책 공통 주요 기능
@@ -176,6 +183,9 @@
 | **`중국침구자구법통감/`** | `index.html` / `황용상자구법통감...html` | 2천 년 침구 자법·구법 총망라 한국어 완역 전자책 |
 | | `중국침구자구법통감_번역_통합.md` | 전문 텍스트 마크다운 정본 |
 | | `README.md` | 작품 개요 및 서지 안내문 |
+| **`금침매화시초/`** | `index.html` / `금침매화시초...html` | 매화파 독문 침방·자침 21절·요혈시 한국어 완역 전자책 |
+| | `금침매화시초_번역_통합.md` | 전문 텍스트 마크다운 정본 |
+| | `README.md` | 작품 개요 및 서지 안내문 |
 | **`중의백병명원고/`** | `index.html` / `중의백병명원고...html` | 한의 병명 어원학 최고 명저 한국어 완역 전자책 |
 | | `중의백병명원고_번역_통합.md` | 전문 텍스트 마크다운 |
 | | `README.md` | 작품 개요 및 서지 안내문 |
@@ -195,7 +205,7 @@
 | | `황용상침구학술사대강_OCR_통합.md` | 전문 텍스트 마크다운 |
 | | `README.md` | 작품 개요 및 서지 안내문 |
 | **루트 웹 배포 인프라** | `index.html` | 도서관 통합 메인 포털 홈 |
-| | `[slug].html` / `[slug]/index.html` | 16개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
+| | `[slug].html` / `[slug]/index.html` | 17개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
 | | `images/` | 중국침구사도감 고해상도 유물 도판(`fig`, `figzoom`) 공통 자산 |
 | | `deploy_to_gdrive.py` / `.bat` | 로컬 작업공간 ➔ 구글 드라이브 동기화 배포 도구 |
 | | `README.md` | 도서관 종합 설명서 |
