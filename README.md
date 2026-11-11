@@ -139,6 +139,13 @@
 * **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/jinzhen-meihua.html)**
 * *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/jinzhen-meihua/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EA%B8%88%EC%B9%A8%EB%A7%A4%ED%99%94%EC%8B%9C%EC%B4%88/%EA%B8%88%EC%B9%A8%EB%A7%A4%ED%99%94%EC%8B%9C%EC%B4%88_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
 
+### 18. 소문고주 (素問攷注 / 素问考注)
+* **저자:** 삼립지(森立之, 1807~1885) 찬 · 곽수매(郭秀梅)·오카다 겐키치(岡田研吉) 교주
+* **원출판:** 학원출판사(學苑出版社), 수정판 상·하권 (1,713쪽)
+* **설명:** 일본 에도 시대 고증학의 거두 삼립지가 평생에 걸쳐 『소문(素問)』 81편 전체를 한·중·일 수백 종의 의학 전적 및 고전과 정밀 대조하여 훈고·고증·교감한 의학 고증학의 불후의 최고봉 명저 한국어 완역본.
+* **👉 [웹 전자책 바로 읽기 (클린 URL)](https://jaehyokim-sketch.github.io/classics/suwen-kaozhu.html)**
+* *(대체 접속 링크: [디렉터리 URL](https://jaehyokim-sketch.github.io/classics/suwen-kaozhu/) | [원본 파일명 URL](https://jaehyokim-sketch.github.io/classics/%EC%86%8C%EB%AC%B8%EA%B3%A0%EC%A3%BC/%ED%99%A9%EC%A0%9C%EB%82%B4%EA%B2%BD%20%EA%B3%A0%EC%A3%BC%20-%20%EC%82%BC%EB%A6%BD%EC%A7%80_%EB%B2%88%EC%97%AD_%ED%86%B5%ED%95%A9%20-%202026%EB%85%84%2011%EC%9B%94%2010%EC%9D%BC.html))*
+
 ---
 
 ## ✨ 웹 전자책 공통 주요 기능
@@ -186,6 +193,10 @@
 | **`금침매화시초/`** | `index.html` / `금침매화시초...html` | 매화파 독문 침방·자침 21절·요혈시 한국어 완역 전자책 |
 | | `금침매화시초_번역_통합.md` | 전문 텍스트 마크다운 정본 |
 | | `README.md` | 작품 개요 및 서지 안내문 |
+| **`소문고주/`** | `index.html` / `황제내경 고주...html` | 1,713쪽 전2권 소문 훈고·고증·교감 최고봉 한국어 완역본 |
+| | `소문고주_번역_통합.md` / `...원문_OCR.md` | 전문 번역 및 원문 대조 마크다운 정본 |
+| | `images/` | 원서 삽화 도판(85장) 및 전서/이체자 글자 그림(24장) |
+| | `README.md` / `읽어 주세요.txt` | 작품 개요 및 서지 안내문 |
 | **`중의백병명원고/`** | `index.html` / `중의백병명원고...html` | 한의 병명 어원학 최고 명저 한국어 완역 전자책 |
 | | `중의백병명원고_번역_통합.md` | 전문 텍스트 마크다운 |
 | | `README.md` | 작품 개요 및 서지 안내문 |
@@ -205,7 +216,7 @@
 | | `황용상침구학술사대강_OCR_통합.md` | 전문 텍스트 마크다운 |
 | | `README.md` | 작품 개요 및 서지 안내문 |
 | **루트 웹 배포 인프라** | `index.html` | 도서관 통합 메인 포털 홈 |
-| | `[slug].html` / `[slug]/index.html` | 17개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
+| | `[slug].html` / `[slug]/index.html` | 18개 도서 클린 URL 및 디렉터리 경로 전자책 웹 서비스 |
 | | `images/` | 중국침구사도감 고해상도 유물 도판(`fig`, `figzoom`) 공통 자산 |
 | | `deploy_to_gdrive.py` / `.bat` | 로컬 작업공간 ➔ 구글 드라이브 동기화 배포 도구 |
 | | `README.md` | 도서관 종합 설명서 |
