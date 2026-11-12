@@ -819,7 +819,7 @@
         <input type="text" id="search-input" class="search-input" placeholder="서명, 저자, 편저자, 키워드로 검색..." oninput="handleSearch()">
       </div>
       <div class="filter-tags">
-        <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">전체 서고 (19)</button>
+        <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">전체 서고 (18)</button>
         <button class="filter-btn" data-filter="korean" onclick="setFilter('korean')">한국어 완역본</button>
         <button class="filter-btn" data-filter="original" onclick="setFilter('original')">원문 정본</button>
         <button class="filter-btn" data-filter="huang" onclick="setFilter('huang')">황룡상 교수 저작</button>
@@ -1417,6 +1417,12 @@
     }
 
     initTheme();
+
+    // Keep total count synced with actual book cards
+    const allFilterBtn = document.querySelector('.filter-btn[data-filter="all"]');
+    if (allFilterBtn) {
+      allFilterBtn.textContent = `전체 서고 (${document.querySelectorAll('.book-card').length})`;
+    }
 
     // Filter & Search Logic
     let currentFilter = 'all';
